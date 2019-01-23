@@ -25,6 +25,7 @@ func main() {
     if err != nil {
         if err == magic.ErrUnknown {
             fmt.Println("File type is unknown")
+            os.Exit(1)
         }else{
             panic(err)
         }
