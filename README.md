@@ -4,6 +4,12 @@
 
 Toolkit for detecting and verifying file type using magic bytes in pure Go
 
+Support for all file signatures listed [here](https://en.wikipedia.org/wiki/List_of_file_signatures).
+
+You only need to provide the first few hundred bytes of a given file to detect the file type, unless you want to detect `.iso` images, which require examination of the first 32774 bytes.
+
+A description and a suggested file extension are provided where relevant, and MIME types will be added in future.
+
 ## Example Usage
 
 ```go
@@ -25,7 +31,6 @@ func main() {
     }
 
     fmt.Printf("File extension:        %s\n", fileType.Extension)
-    fmt.Printf("File MIME type:        %s\n", fileType.MIME)
     fmt.Printf("File type description: %s\n", fileType.Description)
 }
 ```

@@ -1,19 +1,10 @@
 package magic
 
 import (
-	"bytes"
 	"context"
 	"fmt"
 	"runtime"
 )
-
-// FileType provides information about the type of the file inferred from the provided magic bytes
-type FileType struct {
-	Description string
-	MIME        string
-	Extension   string
-	Magic       []byte
-}
 
 type job struct {
 	input      []byte
@@ -79,12 +70,7 @@ func worker(ctx context.Context, work chan job) {
 		case <-ctx.Done():
 			return
 		case job := <-work:
-			compare := job.input[:len(job.reference.Magic)]
-			if bytes.Compare(compare, job.reference.Magic) == 0 {
-				job.resultChan <- &job.reference
-			} else {
-				job.resultChan <- nil
-			}
+			job.resultChan <- job.reference.check(job.input, 0)
 		}
 	}
 }
