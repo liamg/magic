@@ -70,7 +70,11 @@ func worker(ctx context.Context, work chan job) {
 		case <-ctx.Done():
 			return
 		case job := <-work:
-			job.resultChan <- job.reference.check(job.input, 0)
+			select {
+			case <-ctx.Done():
+				return
+			case job.resultChan <- job.reference.check(job.input, 0):
+			}
 		}
 	}
 }
