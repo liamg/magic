@@ -73,7 +73,7 @@ func worker(ctx context.Context, work chan job) {
 			select {
 			case <-ctx.Done():
 				return
-			case job.resultChan <- job.reference.check(job.input, 0):
+			case job.resultChan <- job.reference.check(job.input, job.reference.Offset):
 			}
 		}
 	}
