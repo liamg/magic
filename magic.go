@@ -42,7 +42,7 @@ func LookupSync(bytes []byte) (*FileType, error) {
 func lookup(bytes []byte, concurrent bool, workers int) (*FileType, error) {
 	// additional worker count check: avoid deadlock when worker count is set to zero
 	if !concurrent || workers == 0 {
-		for _, t := range types {
+		for _, t := range Types {
 			ft := t.check(bytes, 0)
 			if ft != nil {
 				return ft, nil
