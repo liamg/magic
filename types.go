@@ -59,7 +59,7 @@ $('tr', $($('table')[0])).each(function(i, e){
 });
 */
 
-var types = []FileType{
+var Types = []FileType{
 	{
 		Magic:       []byte{0xa1, 0xb2, 0xc3, 0xd4},
 		Offset:      0,

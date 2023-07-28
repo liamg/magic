@@ -32,11 +32,11 @@ func Lookup(bytes []byte) (*FileType, error) {
 		go worker(ctx, workChan)
 	}
 
-	awaiting := len(types)
+	awaiting := len(Types)
 
 	// queue work
 	go func() {
-		for _, t := range types {
+		for _, t := range Types {
 			select {
 			case <-ctx.Done():
 				return
