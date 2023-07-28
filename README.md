@@ -1,7 +1,5 @@
 # magic
 
-[![Travis Build Status](https://travis-ci.org/liamg/magic.svg?branch=master)](https://travis-ci.org/liamg/magic)
-
 Toolkit for detecting and verifying file type using magic bytes in pure Go
 
 Support for all file signatures listed [here](https://en.wikipedia.org/wiki/List_of_file_signatures).
