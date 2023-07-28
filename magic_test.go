@@ -66,5 +66,11 @@ func TestNestedLookupSync(t *testing.T) {
 	require.Nil(t, err)
 
 	assert.Equal(t, fileType.Extension, "wav")
+}
+  
+func TestLookupWithOffset(t *testing.T) {
+	fileType, err := Lookup([]byte{0x00, 0x00, 0x00, 0x20, 0x66, 0x74, 0x79, 0x70, 0x33, 0x67, 0x97})
+	require.Nil(t, err)
 
+	assert.Equal(t, fileType.Extension, "3gp")
 }
