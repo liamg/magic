@@ -20,7 +20,7 @@ func (ft *FileType) check(data []byte, offset int) *FileType {
 	if len(trunc) < len(ft.Magic) {
 		return nil
 	}
-	if bytes.Compare(trunc[:len(ft.Magic)], ft.Magic) == 0 {
+	if bytes.Equal(trunc[:len(ft.Magic)], ft.Magic) {
 		if ft.children == nil {
 			return ft
 		}
