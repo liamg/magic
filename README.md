@@ -1,35 +1,42 @@
 # magic
 
-Toolkit for detecting and verifying file type using magic bytes in pure Go
+Toolkit for detecting and verifying file type using magic bytes in pure Go.
 
-Support for all file signatures listed [here](https://en.wikipedia.org/wiki/List_of_file_signatures).
+Support for all file signatures supported by [FreeDesktop](https://gitlab.freedesktop.org/xdg/shared-mime-info/-/raw/master/data/freedesktop.org.xml.in) (and a few more.)
 
-You only need to provide the first few hundred bytes of a given file to detect the file type, unless you want to detect `.iso` images, which require examination of the first 32774 bytes.
+A MIME type, description, and a suggested file extension and icon name are provided for each lookup.
 
-A description and a suggested file extension are provided where relevant, and MIME types will be added in future.
+A binary is also included for ease of use.
 
-## Example Usage
+## Binary Usage
+
+```sh
+$ go install github.com/liamg/magic/cmd/latest@latest
+$ magic /path/to/file
+```
+
+## Module Usage
 
 ```go
 package main
 
-import "github.com/liamg/magic"
+import (
+	"fmt"
+	"os"
+
+	"github.com/liamg/magic"
+)
 
 func main() {
+	ft, err := magic.IdentifyPath(os.Args[1])
+	if err != nil {
+		fmt.Printf("\x1b[31mError identifying file: %s\x1b[0m\n", err)
+		os.Exit(1)
+	}
 
-    data := []byte{0xa1, 0xb2, 0xc3, 0xd4, 0x00, 0x00, 0x00, 0x00}
-
-    fileType, err := magic.Lookup(data)
-    if err != nil {
-        if err == magic.ErrUnknown {
-            fmt.Println("File type is unknown")
-            os.Exit(1)
-        }else{
-            panic(err)
-        }
-    }
-
-    fmt.Printf("File extension:        %s\n", fileType.Extension)
-    fmt.Printf("File type description: %s\n", fileType.Description)
+	fmt.Printf("File         %s\n", os.Args[1])
+	fmt.Printf("Description  %s\n", ft.Description)
+	fmt.Printf("MIME         %s\n", ft.MIME)
+	fmt.Printf("Icon         %s\n", ft.Icon)
 }
 ```

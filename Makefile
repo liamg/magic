@@ -1,4 +1,4 @@
-golangcilint_version := "1.53.3"
+golangcilint_version := "2.6.1"
 
 default : lint test
 
@@ -11,3 +11,10 @@ lint:
 .PHONY: test
 test:
 	go test -race ./...
+
+.PHONY: generate
+generate: freedesktop.org.xml
+	go generate
+
+freedesktop.org.xml:
+	curl -o freedesktop.org.xml https://gitlab.freedesktop.org/xdg/shared-mime-info/-/raw/master/data/freedesktop.org.xml.in
