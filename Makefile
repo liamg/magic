@@ -1,13 +1,20 @@
-golangcilint_version := "1.53.3"
+golangcilint_version := "2.6.1"
 
 default : lint test
 
 .PHONY: lint
 lint:
 	@echo "Linting..."
-	@(which golangci-lint &&  [[ "$$(golangci-lint --version | awk '{print $$4}')" == "$(golangcilint_version)" ]] ) || go install github.com/golangci/golangci-lint/cmd/golangci-lint@v$(golangcilint_version)
+	@(which golangci-lint &&  [[ "$$(golangci-lint --version | awk '{print $$4}')" == "$(golangcilint_version)" ]] ) || go install github.com/golangci/golangci-lint/v2/cmd/golangci-lint@v$(golangcilint_version)
 	@golangci-lint run
 
 .PHONY: test
 test:
 	go test -race ./...
+
+.PHONY: generate
+generate: freedesktop.org.xml
+	go generate
+
+freedesktop.org.xml:
+	curl -o freedesktop.org.xml https://gitlab.freedesktop.org/xdg/shared-mime-info/-/raw/master/data/freedesktop.org.xml.in

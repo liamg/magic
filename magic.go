@@ -1,115 +1,242 @@
 package magic
 
+//go:generate go run cmd/generator/main.go freedesktop.org.xml generated.go
+
 import (
-	"context"
+	"bytes"
 	"fmt"
-	"runtime"
+	"io"
+	"os"
+	"path/filepath"
+	"sort"
+	"unicode/utf8"
+
+	"github.com/bmatcuk/doublestar/v4"
 )
 
-type job struct {
-	input      []byte
-	reference  FileType
-	resultChan chan *FileType
+var unknownBinaryFileType = FileType{
+	Description:          "Unknown",
+	RecommendedExtension: ".bin",
+	MIME:                 "application/octet-stream",
+	Icon:                 "application-x-generic",
 }
 
-// LookupConfig is a struct that contains configuration details to modify the default Lookup behavior
-type LookupConfig struct {
-	ConcurrencyEnabled bool // the search will be performed concurrently by multiple worker goroutines when this field is set to true. The search will be carried out by the calling goroutine if set to false.
-	WorkerCount        int  // number of worker goroutines to be spawned if concurrency is set to true. If set to -1, workerCount will be set to use all the available cores.
+var unknownTextFileType = FileType{
+	Description:          "Unknown",
+	RecommendedExtension: ".txt",
+	MIME:                 "text/plain",
+	Icon:                 "text-x-generic",
 }
 
-// ErrUnknown infers the file type cannot be determined by the provided magic bytes
-var ErrUnknown = fmt.Errorf("unknown file type")
-
-// Lookup looks up the file type based on the provided magic bytes. You should provide at least the first 1024 bytes of the file in this slice.
-// A magic.ErrUnknown will be returned if the file type is not known.
-func Lookup(bytes []byte) (*FileType, error) {
-	return lookup(bytes, true, -1)
+type bufferedReader struct {
+	reader io.Reader
+	buffer []byte
 }
 
-// LookupWithConfig looks up the file type based on the provided magic bytes, and a given configuration. You should provide at least the first 1024 bytes of the file in this slice.
-// A magic.ErrUnknown will be returned if the file type is not known.
-func LookupWithConfig(bytes []byte, config LookupConfig) (*FileType, error) {
-	return lookup(bytes, config.ConcurrencyEnabled, config.WorkerCount)
+func (b *bufferedReader) MaybeBuffer(length int) {
+	_ = b.EnsureBuffered(length)
 }
 
-// LookupSync lookups up the file type based on the provided magic bytes without spawning any additional goroutines. You should provide at least the first 1024 bytes of the file in this slice.
-// A magic.ErrUnknown will be returned if the file type is not known.
-func LookupSync(bytes []byte) (*FileType, error) {
-	return lookup(bytes, false, 0)
+func (b *bufferedReader) EnsureBuffered(length int) error {
+	if len(b.buffer) >= length {
+		return nil
+	}
+	extra := length - len(b.buffer)
+	existing := b.buffer
+
+	b.buffer = make([]byte, length)
+	if len(existing) > 0 {
+		copy(b.buffer, existing)
+	}
+
+	if n, err := b.reader.Read(b.buffer[len(existing):]); err != nil {
+		b.buffer = b.buffer[:len(existing)]
+		return err
+	} else if n < extra {
+		b.buffer = b.buffer[:len(existing)+n]
+		return fmt.Errorf("not enough data available to read")
+	}
+
+	return nil
 }
 
-func lookup(bytes []byte, concurrent bool, workers int) (*FileType, error) {
-	// additional worker count check: avoid deadlock when worker count is set to zero
-	if !concurrent || workers == 0 {
-		for _, t := range Types {
-			ft := t.check(bytes, 0)
-			if ft != nil {
-				return ft, nil
+func (b *bufferedReader) Data() []byte {
+	return b.buffer
+}
+
+// Identify looks up the file type based on the provided bytes.
+func Identify(r io.Reader) FileType {
+
+	b := &bufferedReader{
+		reader: r,
+	}
+
+	for _, t := range allDataMatchers {
+		if t.MatchBytes(b) {
+			return t.Result
+		}
+	}
+	return identifyUnknownType(b)
+}
+
+func IdentifyPath(path string) (FileType, error) {
+	f, err := os.Open(path)
+	if err != nil {
+		return unknownBinaryFileType, err
+	}
+	defer func() { _ = f.Close() }()
+	return IdentifyWithFilename(f, filepath.Base(path)), nil
+}
+
+func identifyUnknownType(b *bufferedReader) FileType {
+	// we just want to fill the buffer with anything up to 128 bytes
+	b.MaybeBuffer(128)
+	for i := range len(b.Data()) {
+		if b.Data()[i] < 32 || b.Data()[i] > 126 {
+			if utf8.Valid(b.Data()) {
+				return unknownTextFileType
+			}
+			return unknownBinaryFileType
+		}
+	}
+	return unknownTextFileType
+}
+
+// IdentifyWithFilename looks up the file type based on the provided filename, falling back to the bytes if needed.
+// See https://specifications.freedesktop.org/shared-mime-info/latest/ar01s02.html#id-1.3.15 for checking order
+func IdentifyWithFilename(r io.Reader, filename string) FileType {
+	filename = filepath.Base(filename)
+	candidates := make([]FilenameMatcher, 0)
+	maxPriority := 0
+	for _, t := range allFilenameMatchers {
+		if t.Priority < maxPriority {
+			continue
+		}
+		if ok, _ := doublestar.Match(t.Pattern, filename); ok {
+			if t.Priority > maxPriority {
+				maxPriority = t.Priority
+			}
+			candidates = append(candidates, t)
+		}
+	}
+	if len(candidates) > 0 {
+		filtered := make([]FilenameMatcher, 0, len(candidates))
+		for _, c := range candidates {
+			if c.Priority == maxPriority {
+				filtered = append(filtered, c)
 			}
 		}
-		return nil, ErrUnknown
-	}
-
-	// use all available cores
-	workerCount := runtime.GOMAXPROCS(0)
-	if workers > -1 && workers < workerCount {
-		workerCount = workers
-	}
-	workChan := make(chan job)
-	resultChan := make(chan *FileType)
-
-	ctx, cancel := context.WithCancel(context.Background())
-	defer cancel()
-
-	// spawn workers
-	for i := 0; i < workerCount; i++ {
-		go worker(ctx, workChan)
-	}
-
-	awaiting := len(Types)
-
-	// queue work
-	go func() {
-		for _, t := range Types {
-			select {
-			case <-ctx.Done():
-				return
-			case workChan <- job{
-				input:      bytes,
-				reference:  t,
-				resultChan: resultChan,
-			}:
+		if len(filtered) == 1 {
+			return filtered[0].Result
+		}
+		sort.Slice(filtered, func(i, j int) bool {
+			return filtered[i].Pattern > filtered[j].Pattern
+		})
+		maxPatternLength := len(filtered[0].Pattern)
+		refiltered := make([]FilenameMatcher, 0, len(filtered))
+		for _, f := range filtered {
+			if len(f.Pattern) == maxPatternLength {
+				refiltered = append(refiltered, f)
 			}
 		}
-
-	}()
-
-	for {
-		result := <-resultChan
-		if result != nil {
-			return result, nil
+		mimes := make(map[string]struct{}, len(refiltered))
+		for _, f := range refiltered {
+			mimes[f.Result.MIME] = struct{}{}
 		}
-		awaiting--
-		if awaiting <= 0 {
+		if len(mimes) == 1 {
+			return refiltered[0].Result
+		}
+
+		// we follow the fressdesktop advice here of using the file content if there are multiple filename matches.
+		// however, if the file content doesn't yield a match either, we take the first filename match
+		fallback := Identify(r)
+		if fallback != unknownBinaryFileType && fallback != unknownTextFileType {
+			return fallback
+		}
+
+		return refiltered[0].Result
+	}
+	return Identify(r)
+}
+
+type FilenameMatcher struct {
+	Pattern  string
+	Result   FileType
+	Priority int
+}
+
+type DataMatcher struct {
+	Submatches []DataSubMatcher
+	Result     FileType
+	Priority   int
+}
+
+type DataSubMatcher struct {
+	Bytes    []byte
+	Offsets  []int
+	Mask     []byte
+	Children []DataSubMatcher
+}
+
+// FileType provides information about the type of the file inferred from the provided magic bytes
+type FileType struct {
+	Description          string
+	RecommendedExtension string
+	Icon                 string
+	MIME                 string
+}
+
+func (m *DataMatcher) MatchBytes(b *bufferedReader) bool {
+	for _, match := range m.Submatches {
+		lastOffset := match.Offsets[len(match.Offsets)-1]
+		b.MaybeBuffer(lastOffset + len(match.Bytes))
+		if match.Match(b.Data()) {
+			return true
+		}
+	}
+	return false
+}
+
+func (m *DataSubMatcher) Match(data []byte) bool {
+	var peek []byte
+	for _, offset := range m.Offsets {
+		if len(data) <= offset {
+			return false
+		}
+		peek = data[offset:]
+		if len(peek) < len(m.Bytes) {
+			return false
+		}
+		peek = peek[:len(m.Bytes)]
+		if len(m.Mask) > 0 {
+			peek = applyMask(peek, m.Mask)
+		}
+		if bytes.Equal(peek, m.Bytes) {
+
+			if len(m.Children) == 0 {
+				return true
+			}
+
+			for _, child := range m.Children {
+				if child.Match(data) {
+					return true
+				}
+			}
+
+			continue
+		}
+	}
+	return false
+}
+
+func applyMask(data []byte, mask []byte) []byte {
+	copied := make([]byte, len(data))
+	copy(copied, data)
+	for i := range mask {
+		if i >= len(copied) {
 			break
 		}
+		copied[i] &= mask[i]
 	}
-
-	return nil, ErrUnknown
-}
-
-func worker(ctx context.Context, work chan job) {
-	for {
-		select {
-		case <-ctx.Done():
-			return
-		case job := <-work:
-			select {
-			case <-ctx.Done():
-				return
-			case job.resultChan <- job.reference.check(job.input, job.reference.Offset):
-			}
-		}
-	}
+	return copied
 }
