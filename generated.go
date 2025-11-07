@@ -13320,7 +13320,7 @@ var dataMatchers = []DataMatcher{
     Priority: 90,
     Result:     FileType{
       Description:          "StarWriter 5 master document",
-      RecommendedExtension: ".writer-global",
+      RecommendedExtension: ".sgl",
       Icon:                 "x-office-document",
       MIME:                 "application/vnd.stardivision.writer-global",
     },
@@ -13335,7 +13335,7 @@ var dataMatchers = []DataMatcher{
     Priority: 90,
     Result:     FileType{
       Description:          "ERIS Link",
-      RecommendedExtension: "",
+      RecommendedExtension: ".eris",
       Icon:                 "application-x-generic",
       MIME:                 "application/x-eris-link+cbor",
     },
@@ -13360,7 +13360,7 @@ var dataMatchers = []DataMatcher{
     Priority: 90,
     Result:     FileType{
       Description:          "DocBook document",
-      RecommendedExtension: "",
+      RecommendedExtension: ".dbk",
       Icon:                 "x-office-document",
       MIME:                 "application/docbook+xml",
     },
@@ -13395,7 +13395,7 @@ var dataMatchers = []DataMatcher{
     Priority: 90,
     Result:     FileType{
       Description:          "EPS image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".eps",
       Icon:                 "application-x-generic",
       MIME:                 "image/x-eps",
     },
@@ -13420,7 +13420,7 @@ var dataMatchers = []DataMatcher{
     Priority: 90,
     Result:     FileType{
       Description:          "StarWriter 3-4 document",
-      RecommendedExtension: "",
+      RecommendedExtension: ".sdw",
       Icon:                 "x-office-document",
       MIME:                 "application/x-starwriter",
     },
@@ -13441,7 +13441,7 @@ var dataMatchers = []DataMatcher{
     Priority: 90,
     Result:     FileType{
       Description:          "StarWriter 4 master document",
-      RecommendedExtension: "",
+      RecommendedExtension: ".sgl",
       Icon:                 "x-office-document",
       MIME:                 "application/x-starwriter-global",
     },
@@ -13466,7 +13466,7 @@ var dataMatchers = []DataMatcher{
     Priority: 90,
     Result:     FileType{
       Description:          "StarWriter 5 document",
-      RecommendedExtension: ".writer",
+      RecommendedExtension: ".sdw",
       Icon:                 "x-office-document",
       MIME:                 "application/vnd.stardivision.writer",
     },
@@ -13497,7 +13497,7 @@ var dataMatchers = []DataMatcher{
     Priority: 80,
     Result:     FileType{
       Description:          "Ogg FLAC audio",
-      RecommendedExtension: "",
+      RecommendedExtension: ".oga",
       Icon:                 "application-x-generic",
       MIME:                 "audio/x-flac+ogg",
     },
@@ -13518,7 +13518,7 @@ var dataMatchers = []DataMatcher{
     Priority: 80,
     Result:     FileType{
       Description:          "Ogg Vorbis audio",
-      RecommendedExtension: "",
+      RecommendedExtension: ".oga",
       Icon:                 "application-x-generic",
       MIME:                 "audio/x-vorbis+ogg",
     },
@@ -13533,7 +13533,7 @@ var dataMatchers = []DataMatcher{
     Priority: 80,
     Result:     FileType{
       Description:          "ASTC texture",
-      RecommendedExtension: "",
+      RecommendedExtension: ".astc",
       Icon:                 "application-x-generic",
       MIME:                 "image/astc",
     },
@@ -13560,7 +13560,7 @@ var dataMatchers = []DataMatcher{
     Priority: 80,
     Result:     FileType{
       Description:          "Khronos texture image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".ktx2",
       Icon:                 "application-x-generic",
       MIME:                 "image/ktx2",
     },
@@ -13587,7 +13587,7 @@ var dataMatchers = []DataMatcher{
     Priority: 80,
     Result:     FileType{
       Description:          "Khronos texture image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".ktx",
       Icon:                 "application-x-generic",
       MIME:                 "image/ktx",
     },
@@ -13608,7 +13608,7 @@ var dataMatchers = []DataMatcher{
     Priority: 80,
     Result:     FileType{
       Description:          "Opus audio",
-      RecommendedExtension: "",
+      RecommendedExtension: ".opus",
       Icon:                 "application-x-generic",
       MIME:                 "audio/x-opus+ogg",
     },
@@ -13629,7 +13629,7 @@ var dataMatchers = []DataMatcher{
     Priority: 80,
     Result:     FileType{
       Description:          "Ogg Speex audio",
-      RecommendedExtension: "",
+      RecommendedExtension: ".oga",
       Icon:                 "application-x-generic",
       MIME:                 "audio/x-speex+ogg",
     },
@@ -13650,7 +13650,7 @@ var dataMatchers = []DataMatcher{
     Priority: 80,
     Result:     FileType{
       Description:          "Ogg Theora video",
-      RecommendedExtension: "",
+      RecommendedExtension: ".ogg",
       Icon:                 "application-x-generic",
       MIME:                 "video/x-theora+ogg",
     },
@@ -13671,7 +13671,7 @@ var dataMatchers = []DataMatcher{
     Priority: 80,
     Result:     FileType{
       Description:          "OGM video",
-      RecommendedExtension: "",
+      RecommendedExtension: ".ogm",
       Icon:                 "application-x-generic",
       MIME:                 "video/x-ogm+ogg",
     },
@@ -13686,7 +13686,7 @@ var dataMatchers = []DataMatcher{
     Priority: 80,
     Result:     FileType{
       Description:          "PHP script",
-      RecommendedExtension: "",
+      RecommendedExtension: ".php",
       Icon:                 "text-x-script",
       MIME:                 "application/x-php",
     },
@@ -13701,7 +13701,7 @@ var dataMatchers = []DataMatcher{
     Priority: 80,
     Result:     FileType{
       Description:          "Plucker document",
-      RecommendedExtension: ".plucker",
+      RecommendedExtension: "",
       Icon:                 "x-office-document",
       MIME:                 "application/prs.plucker",
     },
@@ -13728,7 +13728,7 @@ var dataMatchers = []DataMatcher{
     Priority: 80,
     Result:     FileType{
       Description:          "ODM template",
-      RecommendedExtension: ".text-master-template",
+      RecommendedExtension: ".otm",
       Icon:                 "x-office-document",
       MIME:                 "application/vnd.oasis.opendocument.text-master-template",
     },
@@ -13744,7 +13744,7 @@ var dataMatchers = []DataMatcher{
     Priority: 80,
     Result:     FileType{
       Description:          "Corel Draw drawing",
-      RecommendedExtension: ".corel-draw",
+      RecommendedExtension: ".cdr",
       Icon:                 "image-x-generic",
       MIME:                 "application/vnd.corel-draw",
     },
@@ -13759,7 +13759,7 @@ var dataMatchers = []DataMatcher{
     Priority: 80,
     Result:     FileType{
       Description:          "XLIFF translation file",
-      RecommendedExtension: "",
+      RecommendedExtension: ".xlf",
       Icon:                 "text-x-generic",
       MIME:                 "application/xliff+xml",
     },
@@ -13774,7 +13774,7 @@ var dataMatchers = []DataMatcher{
     Priority: 80,
     Result:     FileType{
       Description:          "NewzBin usenet index",
-      RecommendedExtension: "",
+      RecommendedExtension: ".nzb",
       Icon:                 "application-x-generic",
       MIME:                 "application/x-nzb",
     },
@@ -13795,7 +13795,7 @@ var dataMatchers = []DataMatcher{
     Priority: 80,
     Result:     FileType{
       Description:          "Windows or EFI program",
-      RecommendedExtension: ".portable-executable",
+      RecommendedExtension: ".efi",
       Icon:                 "application-x-executable",
       MIME:                 "application/vnd.microsoft.portable-executable",
     },
@@ -13840,7 +13840,7 @@ var dataMatchers = []DataMatcher{
     Priority: 80,
     Result:     FileType{
       Description:          "Mobipocket e-book",
-      RecommendedExtension: "",
+      RecommendedExtension: ".mobi",
       Icon:                 "x-office-document",
       MIME:                 "application/x-mobipocket-ebook",
     },
@@ -13871,7 +13871,7 @@ var dataMatchers = []DataMatcher{
     Priority: 80,
     Result:     FileType{
       Description:          "DjVu document",
-      RecommendedExtension: ".djvu+multipage",
+      RecommendedExtension: ".djvu",
       Icon:                 "x-office-document",
       MIME:                 "image/vnd.djvu+multipage",
     },
@@ -13923,7 +13923,7 @@ var dataMatchers = []DataMatcher{
     Priority: 80,
     Result:     FileType{
       Description:          "JSON schema",
-      RecommendedExtension: "",
+      RecommendedExtension: ".json",
       Icon:                 "text-x-script",
       MIME:                 "application/schema+json",
     },
@@ -13946,7 +13946,7 @@ var dataMatchers = []DataMatcher{
     Priority: 80,
     Result:     FileType{
       Description:          "SVG image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".svg",
       Icon:                 "application-x-generic",
       MIME:                 "image/svg+xml",
     },
@@ -13961,7 +13961,7 @@ var dataMatchers = []DataMatcher{
     Priority: 80,
     Result:     FileType{
       Description:          "FictionBook document",
-      RecommendedExtension: "",
+      RecommendedExtension: ".fb2",
       Icon:                 "application-x-generic",
       MIME:                 "application/x-fictionbook+xml",
     },
@@ -13976,7 +13976,7 @@ var dataMatchers = []DataMatcher{
     Priority: 80,
     Result:     FileType{
       Description:          "Kodak KDC raw image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".kdc",
       Icon:                 "application-x-generic",
       MIME:                 "image/x-kodak-kdc",
     },
@@ -14003,7 +14003,7 @@ var dataMatchers = []DataMatcher{
     Priority: 75,
     Result:     FileType{
       Description:          "ODM document",
-      RecommendedExtension: ".text-master",
+      RecommendedExtension: ".odm",
       Icon:                 "x-office-document",
       MIME:                 "application/vnd.oasis.opendocument.text-master",
     },
@@ -14028,7 +14028,7 @@ var dataMatchers = []DataMatcher{
     Priority: 70,
     Result:     FileType{
       Description:          "Media playlist",
-      RecommendedExtension: ".mpegurl",
+      RecommendedExtension: ".m3u",
       Icon:                 "application-x-generic",
       MIME:                 "application/vnd.apple.mpegurl",
     },
@@ -14049,7 +14049,7 @@ var dataMatchers = []DataMatcher{
     Priority: 70,
     Result:     FileType{
       Description:          "16-bit Windows program",
-      RecommendedExtension: "",
+      RecommendedExtension: ".exe",
       Icon:                 "application-x-executable",
       MIME:                 "application/x-ms-ne-executable",
     },
@@ -14076,7 +14076,7 @@ var dataMatchers = []DataMatcher{
     Priority: 70,
     Result:     FileType{
       Description:          "OpenRaster image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".ora",
       Icon:                 "application-x-generic",
       MIME:                 "image/openraster",
     },
@@ -14097,7 +14097,7 @@ var dataMatchers = []DataMatcher{
     Priority: 70,
     Result:     FileType{
       Description:          "Compressed FictionBook document",
-      RecommendedExtension: "",
+      RecommendedExtension: ".zip",
       Icon:                 "application-x-generic",
       MIME:                 "application/x-zip-compressed-fb2",
     },
@@ -14128,7 +14128,7 @@ var dataMatchers = []DataMatcher{
     Priority: 70,
     Result:     FileType{
       Description:          "Electronic book document",
-      RecommendedExtension: "",
+      RecommendedExtension: ".epub",
       Icon:                 "x-office-document",
       MIME:                 "application/epub+zip",
     },
@@ -14174,7 +14174,7 @@ var dataMatchers = []DataMatcher{
     Priority: 70,
     Result:     FileType{
       Description:          "Apple Keynote 5 presentation",
-      RecommendedExtension: ".keynote",
+      RecommendedExtension: ".key",
       Icon:                 "x-office-presentation",
       MIME:                 "application/vnd.apple.keynote",
     },
@@ -14189,7 +14189,7 @@ var dataMatchers = []DataMatcher{
     Priority: 70,
     Result:     FileType{
       Description:          "OPML syndication feed",
-      RecommendedExtension: "",
+      RecommendedExtension: ".opml",
       Icon:                 "text-html",
       MIME:                 "text/x-opml+xml",
     },
@@ -14216,7 +14216,7 @@ var dataMatchers = []DataMatcher{
     Priority: 70,
     Result:     FileType{
       Description:          "ODI image",
-      RecommendedExtension: ".image",
+      RecommendedExtension: ".odi",
       Icon:                 "image-x-generic",
       MIME:                 "application/vnd.oasis.opendocument.image",
     },
@@ -14243,7 +14243,7 @@ var dataMatchers = []DataMatcher{
     Priority: 70,
     Result:     FileType{
       Description:          "ODB database",
-      RecommendedExtension: ".base",
+      RecommendedExtension: ".odb",
       Icon:                 "x-office-document",
       MIME:                 "application/vnd.oasis.opendocument.base",
     },
@@ -14270,7 +14270,7 @@ var dataMatchers = []DataMatcher{
     Priority: 70,
     Result:     FileType{
       Description:          "ODF template",
-      RecommendedExtension: ".formula-template",
+      RecommendedExtension: ".otf",
       Icon:                 "x-office-document",
       MIME:                 "application/vnd.oasis.opendocument.formula-template",
     },
@@ -14297,7 +14297,7 @@ var dataMatchers = []DataMatcher{
     Priority: 70,
     Result:     FileType{
       Description:          "ODF formula",
-      RecommendedExtension: ".formula",
+      RecommendedExtension: ".odf",
       Icon:                 "x-office-document",
       MIME:                 "application/vnd.oasis.opendocument.formula",
     },
@@ -14324,7 +14324,7 @@ var dataMatchers = []DataMatcher{
     Priority: 70,
     Result:     FileType{
       Description:          "ODC template",
-      RecommendedExtension: ".chart-template",
+      RecommendedExtension: ".otc",
       Icon:                 "x-office-spreadsheet",
       MIME:                 "application/vnd.oasis.opendocument.chart-template",
     },
@@ -14351,7 +14351,7 @@ var dataMatchers = []DataMatcher{
     Priority: 70,
     Result:     FileType{
       Description:          "ODC chart",
-      RecommendedExtension: ".chart",
+      RecommendedExtension: ".odc",
       Icon:                 "x-office-spreadsheet",
       MIME:                 "application/vnd.oasis.opendocument.chart",
     },
@@ -14378,7 +14378,7 @@ var dataMatchers = []DataMatcher{
     Priority: 70,
     Result:     FileType{
       Description:          "ODS template",
-      RecommendedExtension: ".spreadsheet-template",
+      RecommendedExtension: ".ots",
       Icon:                 "x-office-spreadsheet",
       MIME:                 "application/vnd.oasis.opendocument.spreadsheet-template",
     },
@@ -14405,7 +14405,7 @@ var dataMatchers = []DataMatcher{
     Priority: 70,
     Result:     FileType{
       Description:          "ODS spreadsheet",
-      RecommendedExtension: ".spreadsheet",
+      RecommendedExtension: ".ods",
       Icon:                 "x-office-spreadsheet",
       MIME:                 "application/vnd.oasis.opendocument.spreadsheet",
     },
@@ -14432,7 +14432,7 @@ var dataMatchers = []DataMatcher{
     Priority: 70,
     Result:     FileType{
       Description:          "ODP template",
-      RecommendedExtension: ".presentation-template",
+      RecommendedExtension: ".otp",
       Icon:                 "x-office-presentation",
       MIME:                 "application/vnd.oasis.opendocument.presentation-template",
     },
@@ -14459,7 +14459,7 @@ var dataMatchers = []DataMatcher{
     Priority: 70,
     Result:     FileType{
       Description:          "ODP presentation",
-      RecommendedExtension: ".presentation",
+      RecommendedExtension: ".odp",
       Icon:                 "x-office-presentation",
       MIME:                 "application/vnd.oasis.opendocument.presentation",
     },
@@ -14486,7 +14486,7 @@ var dataMatchers = []DataMatcher{
     Priority: 70,
     Result:     FileType{
       Description:          "ODG template",
-      RecommendedExtension: ".graphics-template",
+      RecommendedExtension: ".otg",
       Icon:                 "image-x-generic",
       MIME:                 "application/vnd.oasis.opendocument.graphics-template",
     },
@@ -14511,7 +14511,7 @@ var dataMatchers = []DataMatcher{
     Priority: 70,
     Result:     FileType{
       Description:          "StarImpress 3-4 presentation",
-      RecommendedExtension: "",
+      RecommendedExtension: ".sdd",
       Icon:                 "x-office-presentation",
       MIME:                 "application/x-starimpress",
     },
@@ -14538,7 +14538,7 @@ var dataMatchers = []DataMatcher{
     Priority: 70,
     Result:     FileType{
       Description:          "ODG drawing",
-      RecommendedExtension: ".graphics",
+      RecommendedExtension: ".odg",
       Icon:                 "image-x-generic",
       MIME:                 "application/vnd.oasis.opendocument.graphics",
     },
@@ -14553,7 +14553,7 @@ var dataMatchers = []DataMatcher{
     Priority: 70,
     Result:     FileType{
       Description:          "Atom syndication feed",
-      RecommendedExtension: "",
+      RecommendedExtension: ".atom",
       Icon:                 "text-html",
       MIME:                 "application/atom+xml",
     },
@@ -14572,7 +14572,7 @@ var dataMatchers = []DataMatcher{
     Priority: 70,
     Result:     FileType{
       Description:          "RSS summary",
-      RecommendedExtension: "",
+      RecommendedExtension: ".rss",
       Icon:                 "text-html",
       MIME:                 "application/rss+xml",
     },
@@ -14599,7 +14599,7 @@ var dataMatchers = []DataMatcher{
     Priority: 70,
     Result:     FileType{
       Description:          "OTH template",
-      RecommendedExtension: ".text-web",
+      RecommendedExtension: ".oth",
       Icon:                 "text-html",
       MIME:                 "application/vnd.oasis.opendocument.text-web",
     },
@@ -14626,7 +14626,7 @@ var dataMatchers = []DataMatcher{
     Priority: 70,
     Result:     FileType{
       Description:          "ODT template",
-      RecommendedExtension: ".text-template",
+      RecommendedExtension: ".ott",
       Icon:                 "x-office-document",
       MIME:                 "application/vnd.oasis.opendocument.text-template",
     },
@@ -14653,7 +14653,7 @@ var dataMatchers = []DataMatcher{
     Priority: 70,
     Result:     FileType{
       Description:          "ODT document",
-      RecommendedExtension: ".text",
+      RecommendedExtension: ".odt",
       Icon:                 "x-office-document",
       MIME:                 "application/vnd.oasis.opendocument.text",
     },
@@ -14680,7 +14680,7 @@ var dataMatchers = []DataMatcher{
     Priority: 70,
     Result:     FileType{
       Description:          "OpenOffice.org 1.0 Writer template",
-      RecommendedExtension: ".template",
+      RecommendedExtension: ".stw",
       Icon:                 "x-office-document",
       MIME:                 "application/vnd.sun.xml.writer.template",
     },
@@ -14701,7 +14701,7 @@ var dataMatchers = []DataMatcher{
     Priority: 70,
     Result:     FileType{
       Description:          "StarImpress 5 presentation",
-      RecommendedExtension: ".impress",
+      RecommendedExtension: ".sdd",
       Icon:                 "x-office-presentation",
       MIME:                 "application/vnd.stardivision.impress",
     },
@@ -14728,7 +14728,7 @@ var dataMatchers = []DataMatcher{
     Priority: 70,
     Result:     FileType{
       Description:          "OpenOffice.org 1.0 Writer global document",
-      RecommendedExtension: ".global",
+      RecommendedExtension: ".sxg",
       Icon:                 "x-office-document",
       MIME:                 "application/vnd.sun.xml.writer.global",
     },
@@ -14755,7 +14755,7 @@ var dataMatchers = []DataMatcher{
     Priority: 70,
     Result:     FileType{
       Description:          "OpenOffice.org 1.0 Writer document",
-      RecommendedExtension: ".writer",
+      RecommendedExtension: ".sxw",
       Icon:                 "x-office-document",
       MIME:                 "application/vnd.sun.xml.writer",
     },
@@ -14782,7 +14782,7 @@ var dataMatchers = []DataMatcher{
     Priority: 70,
     Result:     FileType{
       Description:          "OpenOffice.org 1.0 Math formula",
-      RecommendedExtension: ".math",
+      RecommendedExtension: ".sxm",
       Icon:                 "x-office-document",
       MIME:                 "application/vnd.sun.xml.math",
     },
@@ -14809,7 +14809,7 @@ var dataMatchers = []DataMatcher{
     Priority: 70,
     Result:     FileType{
       Description:          "OpenOffice.org 1.0 Impress template",
-      RecommendedExtension: ".template",
+      RecommendedExtension: ".sti",
       Icon:                 "x-office-presentation",
       MIME:                 "application/vnd.sun.xml.impress.template",
     },
@@ -14836,7 +14836,7 @@ var dataMatchers = []DataMatcher{
     Priority: 70,
     Result:     FileType{
       Description:          "OpenOffice.org 1.0 Impress presentation",
-      RecommendedExtension: ".impress",
+      RecommendedExtension: ".sxi",
       Icon:                 "x-office-presentation",
       MIME:                 "application/vnd.sun.xml.impress",
     },
@@ -14863,7 +14863,7 @@ var dataMatchers = []DataMatcher{
     Priority: 70,
     Result:     FileType{
       Description:          "OpenOffice.org 1.0 Calc spreadsheet",
-      RecommendedExtension: ".calc",
+      RecommendedExtension: ".sxc",
       Icon:                 "x-office-spreadsheet",
       MIME:                 "application/vnd.sun.xml.calc",
     },
@@ -14890,7 +14890,7 @@ var dataMatchers = []DataMatcher{
     Priority: 70,
     Result:     FileType{
       Description:          "OpenOffice.org 1.0 Calc template",
-      RecommendedExtension: ".template",
+      RecommendedExtension: ".stc",
       Icon:                 "x-office-spreadsheet",
       MIME:                 "application/vnd.sun.xml.calc.template",
     },
@@ -14917,7 +14917,7 @@ var dataMatchers = []DataMatcher{
     Priority: 70,
     Result:     FileType{
       Description:          "OpenOffice.org 1.0 Draw drawing",
-      RecommendedExtension: ".draw",
+      RecommendedExtension: ".sxd",
       Icon:                 "image-x-generic",
       MIME:                 "application/vnd.sun.xml.draw",
     },
@@ -14944,7 +14944,7 @@ var dataMatchers = []DataMatcher{
     Priority: 70,
     Result:     FileType{
       Description:          "OpenOffice.org 1.0 Draw template",
-      RecommendedExtension: ".template",
+      RecommendedExtension: ".std",
       Icon:                 "image-x-generic",
       MIME:                 "application/vnd.sun.xml.draw.template",
     },
@@ -15036,7 +15036,7 @@ var dataMatchers = []DataMatcher{
     Priority: 62,
     Result:     FileType{
       Description:          "OVF disk image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".ova",
       Icon:                 "application-x-generic",
       MIME:                 "application/ovf",
     },
@@ -15051,7 +15051,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "ACE archive",
-      RecommendedExtension: "",
+      RecommendedExtension: ".ace",
       Icon:                 "package-x-generic",
       MIME:                 "application/x-ace",
     },
@@ -15078,7 +15078,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "XHTML page",
-      RecommendedExtension: "",
+      RecommendedExtension: ".xhtml",
       Icon:                 "text-html",
       MIME:                 "application/xhtml+xml",
     },
@@ -15129,7 +15129,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "Python 3 script",
-      RecommendedExtension: "",
+      RecommendedExtension: ".py3",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-python3",
     },
@@ -15150,7 +15150,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "StarCalc 5 spreadsheet",
-      RecommendedExtension: ".calc",
+      RecommendedExtension: ".sdc",
       Icon:                 "x-office-spreadsheet",
       MIME:                 "application/vnd.stardivision.calc",
     },
@@ -15165,7 +15165,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "WPL playlist",
-      RecommendedExtension: ".ms-wpl",
+      RecommendedExtension: ".wpl",
       Icon:                 "video-x-generic",
       MIME:                 "application/vnd.ms-wpl",
     },
@@ -15211,7 +15211,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "StarMath 3-4 formula",
-      RecommendedExtension: "",
+      RecommendedExtension: ".smf",
       Icon:                 "x-office-document",
       MIME:                 "application/x-starmath",
     },
@@ -15230,7 +15230,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "Tar archive",
-      RecommendedExtension: "",
+      RecommendedExtension: ".tar",
       Icon:                 "package-x-generic",
       MIME:                 "application/x-tar",
     },
@@ -15251,7 +15251,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "StarDraw 4 drawing",
-      RecommendedExtension: "",
+      RecommendedExtension: ".sda",
       Icon:                 "image-x-generic",
       MIME:                 "application/x-stardraw",
     },
@@ -15276,7 +15276,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "StarChart 3-4 chart",
-      RecommendedExtension: "",
+      RecommendedExtension: ".sds",
       Icon:                 "x-office-spreadsheet",
       MIME:                 "application/x-starchart",
     },
@@ -15301,7 +15301,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "StarCalc 3-4 spreadsheet",
-      RecommendedExtension: "",
+      RecommendedExtension: ".sdc",
       Icon:                 "x-office-spreadsheet",
       MIME:                 "application/x-starcalc",
     },
@@ -15316,7 +15316,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "XZ archive",
-      RecommendedExtension: "",
+      RecommendedExtension: ".xz",
       Icon:                 "package-x-generic",
       MIME:                 "application/x-xz",
     },
@@ -15331,7 +15331,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "Zstandard archive",
-      RecommendedExtension: "",
+      RecommendedExtension: ".zst",
       Icon:                 "package-x-generic",
       MIME:                 "application/zstd",
     },
@@ -15385,7 +15385,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "Word document",
-      RecommendedExtension: "",
+      RecommendedExtension: ".doc",
       Icon:                 "x-office-document",
       MIME:                 "application/msword",
     },
@@ -15410,7 +15410,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "Microsoft Visio document",
-      RecommendedExtension: ".visio",
+      RecommendedExtension: ".vsd",
       Icon:                 "x-office-document",
       MIME:                 "application/vnd.visio",
     },
@@ -15451,7 +15451,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "Microsoft Works document",
-      RecommendedExtension: ".ms-works",
+      RecommendedExtension: ".wcm",
       Icon:                 "x-office-document",
       MIME:                 "application/vnd.ms-works",
     },
@@ -15476,7 +15476,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "PowerPoint presentation",
-      RecommendedExtension: ".ms-powerpoint",
+      RecommendedExtension: ".ppz",
       Icon:                 "x-office-presentation",
       MIME:                 "application/vnd.ms-powerpoint",
     },
@@ -15505,7 +15505,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "Excel spreadsheet",
-      RecommendedExtension: ".ms-excel",
+      RecommendedExtension: ".xls",
       Icon:                 "x-office-spreadsheet",
       MIME:                 "application/vnd.ms-excel",
     },
@@ -15520,7 +15520,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "Microsoft Cabinet archive",
-      RecommendedExtension: ".ms-cab-compressed",
+      RecommendedExtension: ".cab",
       Icon:                 "package-x-generic",
       MIME:                 "application/vnd.ms-cab-compressed",
     },
@@ -15539,7 +15539,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "StuffIt archive",
-      RecommendedExtension: "",
+      RecommendedExtension: ".sit",
       Icon:                 "package-x-generic",
       MIME:                 "application/x-stuffit",
     },
@@ -15587,7 +15587,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "QuickTime playlist",
-      RecommendedExtension: "",
+      RecommendedExtension: ".qtl",
       Icon:                 "video-x-generic",
       MIME:                 "application/x-quicktime-media-link",
     },
@@ -15608,7 +15608,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "Quattro Pro spreadsheet",
-      RecommendedExtension: "",
+      RecommendedExtension: ".wb1",
       Icon:                 "x-office-spreadsheet",
       MIME:                 "application/x-quattropro",
     },
@@ -15623,7 +15623,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "Zoo archive",
-      RecommendedExtension: "",
+      RecommendedExtension: ".zoo",
       Icon:                 "package-x-generic",
       MIME:                 "application/x-zoo",
     },
@@ -15648,7 +15648,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "WordPerfect document",
-      RecommendedExtension: ".wordperfect",
+      RecommendedExtension: ".wp",
       Icon:                 "x-office-document",
       MIME:                 "application/vnd.wordperfect",
     },
@@ -15663,7 +15663,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "Parchive archive",
-      RecommendedExtension: "",
+      RecommendedExtension: ".PAR2",
       Icon:                 "package-x-generic",
       MIME:                 "application/x-par2",
     },
@@ -15684,7 +15684,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "Windows Installer patch",
-      RecommendedExtension: "",
+      RecommendedExtension: ".msp",
       Icon:                 "package-x-generic",
       MIME:                 "application/microsoftpatch",
     },
@@ -15705,7 +15705,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "Windows Installer package",
-      RecommendedExtension: "",
+      RecommendedExtension: ".msi",
       Icon:                 "package-x-generic",
       MIME:                 "application/x-msi",
     },
@@ -15726,7 +15726,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "Microsoft Publisher document",
-      RecommendedExtension: ".ms-publisher",
+      RecommendedExtension: ".pub",
       Icon:                 "x-office-document",
       MIME:                 "application/vnd.ms-publisher",
     },
@@ -15741,7 +15741,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "7-zip archive",
-      RecommendedExtension: "",
+      RecommendedExtension: ".7z",
       Icon:                 "package-x-generic",
       MIME:                 "application/x-7z-compressed",
     },
@@ -15760,7 +15760,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "txt2tags document",
-      RecommendedExtension: "",
+      RecommendedExtension: ".t2t",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-txt2tags",
     },
@@ -15779,7 +15779,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "Windows HTML desktop application",
-      RecommendedExtension: "",
+      RecommendedExtension: ".hta",
       Icon:                 "text-html",
       MIME:                 "application/hta",
     },
@@ -15800,7 +15800,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "StarChart 5 chart",
-      RecommendedExtension: ".chart",
+      RecommendedExtension: ".sds",
       Icon:                 "x-office-spreadsheet",
       MIME:                 "application/vnd.stardivision.chart",
     },
@@ -15821,7 +15821,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "StarDraw 5 drawing",
-      RecommendedExtension: ".draw",
+      RecommendedExtension: ".sda",
       Icon:                 "image-x-generic",
       MIME:                 "application/vnd.stardivision.draw",
     },
@@ -15842,7 +15842,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "StarMath 5 formula",
-      RecommendedExtension: ".math",
+      RecommendedExtension: ".smf",
       Icon:                 "x-office-document",
       MIME:                 "application/vnd.stardivision.math",
     },
@@ -15898,7 +15898,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "StuffIt X archive",
-      RecommendedExtension: "",
+      RecommendedExtension: ".sitx",
       Icon:                 "package-x-generic",
       MIME:                 "application/x-stuffitx",
     },
@@ -15913,7 +15913,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "Zip archive",
-      RecommendedExtension: "",
+      RecommendedExtension: ".zip",
       Icon:                 "package-x-generic",
       MIME:                 "application/zip",
     },
@@ -15934,7 +15934,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "StarMail 5 email",
-      RecommendedExtension: ".mail",
+      RecommendedExtension: ".sdm",
       Icon:                 "emblem-mail",
       MIME:                 "application/vnd.stardivision.mail",
     },
@@ -15955,7 +15955,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "Animated PNG image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".apng",
       Icon:                 "application-x-generic",
       MIME:                 "image/apng",
     },
@@ -15977,7 +15977,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "DOS executable",
-      RecommendedExtension: "",
+      RecommendedExtension: ".exe",
       Icon:                 "application-x-executable",
       MIME:                 "application/x-dosexec",
     },
@@ -16028,7 +16028,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "Python 2 script",
-      RecommendedExtension: "",
+      RecommendedExtension: ".py2",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-python2",
     },
@@ -16063,7 +16063,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "PostScript type-1 font",
-      RecommendedExtension: "",
+      RecommendedExtension: ".pfa",
       Icon:                 "font-x-generic",
       MIME:                 "application/x-font-type1",
     },
@@ -16078,7 +16078,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "XAR archive",
-      RecommendedExtension: "",
+      RecommendedExtension: ".xar",
       Icon:                 "package-x-generic",
       MIME:                 "application/x-xar",
     },
@@ -16093,7 +16093,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "Qpress archive",
-      RecommendedExtension: "",
+      RecommendedExtension: ".qp",
       Icon:                 "package-x-generic",
       MIME:                 "application/x-qpress",
     },
@@ -16108,7 +16108,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "LZO archive",
-      RecommendedExtension: "",
+      RecommendedExtension: ".lzo",
       Icon:                 "package-x-generic",
       MIME:                 "application/x-lzop",
     },
@@ -16123,7 +16123,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "Lrzip archive",
-      RecommendedExtension: "",
+      RecommendedExtension: ".lrz",
       Icon:                 "package-x-generic",
       MIME:                 "application/x-lrzip",
     },
@@ -16138,7 +16138,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "Lzip archive",
-      RecommendedExtension: "",
+      RecommendedExtension: ".lz",
       Icon:                 "package-x-generic",
       MIME:                 "application/x-lzip",
     },
@@ -16157,7 +16157,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "LZ4 archive",
-      RecommendedExtension: "",
+      RecommendedExtension: ".lz4",
       Icon:                 "package-x-generic",
       MIME:                 "application/x-lz4",
     },
@@ -16216,7 +16216,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "LHA archive",
-      RecommendedExtension: "",
+      RecommendedExtension: ".lha",
       Icon:                 "package-x-generic",
       MIME:                 "application/x-lha",
     },
@@ -16259,7 +16259,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "KWord document",
-      RecommendedExtension: "",
+      RecommendedExtension: ".kwd",
       Icon:                 "x-office-document",
       MIME:                 "application/x-kword",
     },
@@ -16302,7 +16302,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "KSpread spreadsheet",
-      RecommendedExtension: "",
+      RecommendedExtension: ".ksp",
       Icon:                 "x-office-spreadsheet",
       MIME:                 "application/x-kspread",
     },
@@ -16353,7 +16353,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "Krita document",
-      RecommendedExtension: "",
+      RecommendedExtension: ".kra",
       Icon:                 "x-office-document",
       MIME:                 "application/x-krita",
     },
@@ -16396,7 +16396,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "KPresenter presentation",
-      RecommendedExtension: "",
+      RecommendedExtension: ".kpr",
       Icon:                 "x-office-presentation",
       MIME:                 "application/x-kpresenter",
     },
@@ -16423,7 +16423,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "CPIO archive",
-      RecommendedExtension: "",
+      RecommendedExtension: ".cpio",
       Icon:                 "package-x-generic",
       MIME:                 "application/x-cpio",
     },
@@ -16466,7 +16466,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "Kontour drawing",
-      RecommendedExtension: "",
+      RecommendedExtension: ".kon",
       Icon:                 "image-x-generic",
       MIME:                 "application/x-kontour",
     },
@@ -16509,7 +16509,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "Kivio flowchart",
-      RecommendedExtension: "",
+      RecommendedExtension: ".flw",
       Icon:                 "x-office-document",
       MIME:                 "application/x-kivio",
     },
@@ -16536,7 +16536,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "KIllustrator drawing",
-      RecommendedExtension: "",
+      RecommendedExtension: ".kil",
       Icon:                 "image-x-generic",
       MIME:                 "application/x-killustrator",
     },
@@ -16567,7 +16567,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "Sega CD disc image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".iso",
       Icon:                 "application-x-executable",
       MIME:                 "application/x-sega-cd-rom",
     },
@@ -16610,7 +16610,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "KFormula formula",
-      RecommendedExtension: "",
+      RecommendedExtension: ".kfo",
       Icon:                 "x-office-document",
       MIME:                 "application/x-kformula",
     },
@@ -16653,7 +16653,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "KChart chart",
-      RecommendedExtension: "",
+      RecommendedExtension: ".chrt",
       Icon:                 "x-office-spreadsheet",
       MIME:                 "application/x-kchart",
     },
@@ -16696,7 +16696,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "Karbon14 drawing",
-      RecommendedExtension: "",
+      RecommendedExtension: ".karbon",
       Icon:                 "image-x-generic",
       MIME:                 "application/x-karbon",
     },
@@ -16717,7 +16717,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "DTS-HD audio",
-      RecommendedExtension: ".hd",
+      RecommendedExtension: ".dtshd",
       Icon:                 "application-x-generic",
       MIME:                 "audio/vnd.dts.hd",
     },
@@ -16732,7 +16732,7 @@ var dataMatchers = []DataMatcher{
     Priority: 60,
     Result:     FileType{
       Description:          "Pack200 Java archive",
-      RecommendedExtension: "",
+      RecommendedExtension: ".pack",
       Icon:                 "package-x-generic",
       MIME:                 "application/x-java-pack200",
     },
@@ -16747,7 +16747,7 @@ var dataMatchers = []DataMatcher{
     Priority: 55,
     Result:     FileType{
       Description:          "SMIL document",
-      RecommendedExtension: "",
+      RecommendedExtension: ".smil",
       Icon:                 "video-x-generic",
       MIME:                 "application/smil+xml",
     },
@@ -16774,7 +16774,7 @@ var dataMatchers = []DataMatcher{
     Priority: 51,
     Result:     FileType{
       Description:          "Microsoft ASX playlist",
-      RecommendedExtension: "",
+      RecommendedExtension: ".asx",
       Icon:                 "application-x-generic",
       MIME:                 "audio/x-ms-asx",
     },
@@ -16789,7 +16789,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "OpenSSH public key",
-      RecommendedExtension: "",
+      RecommendedExtension: ".pub",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-ssh-public-key",
     },
@@ -16804,7 +16804,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "FastTracker II audio",
-      RecommendedExtension: "",
+      RecommendedExtension: ".xm",
       Icon:                 "application-x-generic",
       MIME:                 "audio/x-xm",
     },
@@ -16819,7 +16819,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "HFE floppy disk image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".hfe",
       Icon:                 "application-x-executable",
       MIME:                 "application/x-hfe-floppy-image",
     },
@@ -16834,7 +16834,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "SAP Thomson floppy disk image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".sap",
       Icon:                 "application-x-executable",
       MIME:                 "application/x-thomson-sap-image",
     },
@@ -16855,7 +16855,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Debian package",
-      RecommendedExtension: ".binary-package",
+      RecommendedExtension: ".deb",
       Icon:                 "package-x-generic",
       MIME:                 "application/vnd.debian.binary-package",
     },
@@ -16874,7 +16874,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Qt Designer interface document",
-      RecommendedExtension: "",
+      RecommendedExtension: ".ui",
       Icon:                 "x-office-document",
       MIME:                 "application/x-designer",
     },
@@ -16909,7 +16909,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Qt Markup Language file",
-      RecommendedExtension: "",
+      RecommendedExtension: ".qml",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-qml",
     },
@@ -16940,7 +16940,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Desktop entry",
-      RecommendedExtension: "",
+      RecommendedExtension: ".desktop",
       Icon:                 "text-x-generic",
       MIME:                 "application/x-desktop",
     },
@@ -16963,7 +16963,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "WiiWare bundle",
-      RecommendedExtension: "",
+      RecommendedExtension: ".wad",
       Icon:                 "application-x-executable",
       MIME:                 "application/x-wii-wad",
     },
@@ -16986,7 +16986,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Wii disc image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".iso",
       Icon:                 "application-x-executable",
       MIME:                 "application/x-wii-rom",
     },
@@ -17001,7 +17001,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Dia diagram",
-      RecommendedExtension: "",
+      RecommendedExtension: ".dia",
       Icon:                 "image-x-generic",
       MIME:                 "application/x-dia-diagram",
     },
@@ -17016,7 +17016,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Dia shape",
-      RecommendedExtension: "",
+      RecommendedExtension: ".shape",
       Icon:                 "image-x-generic",
       MIME:                 "application/x-dia-shape",
     },
@@ -17031,7 +17031,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "TeX DVI document",
-      RecommendedExtension: "",
+      RecommendedExtension: ".dvi",
       Icon:                 "x-office-document",
       MIME:                 "application/x-dvi",
     },
@@ -17046,7 +17046,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "SF3 Vector Graphic",
-      RecommendedExtension: ".sf3-vector",
+      RecommendedExtension: ".sf3",
       Icon:                 "application-x-generic",
       MIME:                 "image/x.sf3-vector",
     },
@@ -17061,7 +17061,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "FLTK Fluid file",
-      RecommendedExtension: "",
+      RecommendedExtension: ".fl",
       Icon:                 "x-office-document",
       MIME:                 "application/x-fluid",
     },
@@ -17076,7 +17076,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "WOFF font",
-      RecommendedExtension: "",
+      RecommendedExtension: ".woff",
       Icon:                 "font-x-generic",
       MIME:                 "font/woff",
     },
@@ -17091,7 +17091,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "WOFF2 font",
-      RecommendedExtension: "",
+      RecommendedExtension: ".woff2",
       Icon:                 "font-x-generic",
       MIME:                 "font/woff2",
     },
@@ -17132,7 +17132,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Nintendo Switch encrypted ROM",
-      RecommendedExtension: "",
+      RecommendedExtension: ".xci",
       Icon:                 "application-x-generic",
       MIME:                 "application/x-nintendo-switch-xci",
     },
@@ -17147,7 +17147,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "BDF font",
-      RecommendedExtension: "",
+      RecommendedExtension: ".bdf",
       Icon:                 "font-x-generic",
       MIME:                 "application/x-font-bdf",
     },
@@ -17215,7 +17215,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Linux PSF console font",
-      RecommendedExtension: "",
+      RecommendedExtension: ".psf",
       Icon:                 "font-x-generic",
       MIME:                 "application/x-font-linux-psf",
     },
@@ -17230,7 +17230,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "PCF font",
-      RecommendedExtension: "",
+      RecommendedExtension: ".pcf",
       Icon:                 "font-x-generic",
       MIME:                 "application/x-font-pcf",
     },
@@ -17245,7 +17245,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "OpenType font",
-      RecommendedExtension: "",
+      RecommendedExtension: ".otf",
       Icon:                 "font-x-generic",
       MIME:                 "font/otf",
     },
@@ -17260,7 +17260,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Speedo font",
-      RecommendedExtension: "",
+      RecommendedExtension: ".spd",
       Icon:                 "font-x-generic",
       MIME:                 "application/x-font-speedo",
     },
@@ -17302,7 +17302,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "TDPFR font",
-      RecommendedExtension: "",
+      RecommendedExtension: ".pfr",
       Icon:                 "font-x-generic",
       MIME:                 "application/font-tdpfr",
     },
@@ -17367,7 +17367,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "TrueType font",
-      RecommendedExtension: "",
+      RecommendedExtension: ".ttf",
       Icon:                 "font-x-generic",
       MIME:                 "font/ttf",
     },
@@ -17382,7 +17382,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "TrueType XML font",
-      RecommendedExtension: "",
+      RecommendedExtension: ".ttx",
       Icon:                 "font-x-generic",
       MIME:                 "application/x-font-ttx",
     },
@@ -17436,7 +17436,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Adobe FrameMaker document",
-      RecommendedExtension: ".framemaker",
+      RecommendedExtension: ".fm",
       Icon:                 "x-office-document",
       MIME:                 "application/vnd.framemaker",
     },
@@ -17458,7 +17458,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Game Boy ROM",
-      RecommendedExtension: "",
+      RecommendedExtension: ".gb",
       Icon:                 "application-x-executable",
       MIME:                 "application/x-gameboy-rom",
     },
@@ -17480,7 +17480,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Game Boy Color ROM",
-      RecommendedExtension: "",
+      RecommendedExtension: ".gbc",
       Icon:                 "application-x-executable",
       MIME:                 "application/x-gameboy-color-rom",
     },
@@ -17542,7 +17542,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Genesis ROM",
-      RecommendedExtension: "",
+      RecommendedExtension: ".gen",
       Icon:                 "application-x-executable",
       MIME:                 "application/x-genesis-rom",
     },
@@ -17557,7 +17557,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Genesis 32X ROM",
-      RecommendedExtension: "",
+      RecommendedExtension: ".32x",
       Icon:                 "application-x-executable",
       MIME:                 "application/x-genesis-32x-rom",
     },
@@ -17576,7 +17576,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Translated messages (machine-readable)",
-      RecommendedExtension: "",
+      RecommendedExtension: ".gmo",
       Icon:                 "application-x-generic",
       MIME:                 "application/x-gettext-translation",
     },
@@ -17591,7 +17591,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "GTK+ Builder interface document",
-      RecommendedExtension: "",
+      RecommendedExtension: ".ui",
       Icon:                 "x-office-document",
       MIME:                 "application/x-gtk-builder",
     },
@@ -17606,7 +17606,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Glade project",
-      RecommendedExtension: "",
+      RecommendedExtension: ".glade",
       Icon:                 "x-office-document",
       MIME:                 "application/x-glade",
     },
@@ -17625,7 +17625,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Gnumeric spreadsheet",
-      RecommendedExtension: "",
+      RecommendedExtension: ".gnumeric",
       Icon:                 "x-office-spreadsheet",
       MIME:                 "application/x-gnumeric",
     },
@@ -17655,7 +17655,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Gzip archive",
-      RecommendedExtension: "",
+      RecommendedExtension: ".gz",
       Icon:                 "package-x-generic",
       MIME:                 "application/gzip",
     },
@@ -17674,7 +17674,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "HDF document",
-      RecommendedExtension: "",
+      RecommendedExtension: ".hdf",
       Icon:                 "x-office-document",
       MIME:                 "application/x-hdf",
     },
@@ -17689,7 +17689,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "SF3 Rich Text",
-      RecommendedExtension: ".sf3-text",
+      RecommendedExtension: ".sf3",
       Icon:                 "application-x-generic",
       MIME:                 "application/x.sf3-text",
     },
@@ -17719,7 +17719,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Java class",
-      RecommendedExtension: "",
+      RecommendedExtension: ".class",
       Icon:                 "application-x-generic",
       MIME:                 "application/x-java",
     },
@@ -17734,7 +17734,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "SF3 Table",
-      RecommendedExtension: ".sf3-table",
+      RecommendedExtension: ".sf3",
       Icon:                 "application-x-generic",
       MIME:                 "application/x.sf3-table",
     },
@@ -17749,7 +17749,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "JNLP file",
-      RecommendedExtension: "",
+      RecommendedExtension: ".jnlp",
       Icon:                 "text-x-script",
       MIME:                 "application/x-java-jnlp-file",
     },
@@ -17764,7 +17764,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Java keystore",
-      RecommendedExtension: "",
+      RecommendedExtension: ".jks",
       Icon:                 "application-x-generic",
       MIME:                 "application/x-java-keystore",
     },
@@ -17779,7 +17779,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Java JCE keystore",
-      RecommendedExtension: "",
+      RecommendedExtension: ".jceks",
       Icon:                 "application-x-generic",
       MIME:                 "application/x-java-jce-keystore",
     },
@@ -17794,7 +17794,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "SF3 Physics Model",
-      RecommendedExtension: ".sf3-physics",
+      RecommendedExtension: ".sf3",
       Icon:                 "application-x-generic",
       MIME:                 "model/x.sf3-physics",
     },
@@ -17845,7 +17845,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "JavaScript program",
-      RecommendedExtension: "",
+      RecommendedExtension: ".cjs",
       Icon:                 "text-x-script",
       MIME:                 "text/javascript",
     },
@@ -17860,7 +17860,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Encoded JScript program",
-      RecommendedExtension: ".encode",
+      RecommendedExtension: ".jse",
       Icon:                 "text-x-script",
       MIME:                 "text/jscript.encode",
     },
@@ -17890,7 +17890,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "SF3 Log File",
-      RecommendedExtension: ".sf3-log",
+      RecommendedExtension: ".sf3",
       Icon:                 "application-x-generic",
       MIME:                 "application/x.sf3-log",
     },
@@ -17905,7 +17905,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Nintendo 3DS ROM",
-      RecommendedExtension: "",
+      RecommendedExtension: ".3ds",
       Icon:                 "application-x-executable",
       MIME:                 "application/x-nintendo-3ds-rom",
     },
@@ -17926,7 +17926,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Jupyter notebook document",
-      RecommendedExtension: "",
+      RecommendedExtension: ".ipynb",
       Icon:                 "x-office-document",
       MIME:                 "application/x-ipynb+json",
     },
@@ -17941,7 +17941,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Dreamcast disc image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".iso",
       Icon:                 "application-x-executable",
       MIME:                 "application/x-dreamcast-rom",
     },
@@ -17960,7 +17960,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Sega Saturn disc image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".iso",
       Icon:                 "application-x-executable",
       MIME:                 "application/x-saturn-rom",
     },
@@ -17975,7 +17975,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Sega Pico ROM",
-      RecommendedExtension: "",
+      RecommendedExtension: ".iso",
       Icon:                 "application-x-executable",
       MIME:                 "application/x-sega-pico-rom",
     },
@@ -17990,7 +17990,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "MAME compressed hard disk image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".chd",
       Icon:                 "application-x-executable",
       MIME:                 "application/x-mame-chd",
     },
@@ -18017,7 +18017,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "C shell script",
-      RecommendedExtension: "",
+      RecommendedExtension: ".csh",
       Icon:                 "text-x-script",
       MIME:                 "application/x-csh",
     },
@@ -18032,7 +18032,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Perf data",
-      RecommendedExtension: "",
+      RecommendedExtension: ".data",
       Icon:                 "application-x-generic",
       MIME:                 "application/x-perf-data",
     },
@@ -18103,7 +18103,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "UNIX-compressed file",
-      RecommendedExtension: "",
+      RecommendedExtension: ".Z",
       Icon:                 "package-x-generic",
       MIME:                 "application/x-compress",
     },
@@ -18118,7 +18118,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "PGN chess game notation",
-      RecommendedExtension: ".chess-pgn",
+      RecommendedExtension: ".pgn",
       Icon:                 "text-x-generic",
       MIME:                 "application/vnd.chess-pgn",
     },
@@ -18191,7 +18191,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "CD Table Of Contents",
-      RecommendedExtension: "",
+      RecommendedExtension: ".toc",
       Icon:                 "text-x-generic",
       MIME:                 "application/x-cdrdao-toc",
     },
@@ -18239,7 +18239,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "AppImage application bundle",
-      RecommendedExtension: "",
+      RecommendedExtension: ".appimage",
       Icon:                 "application-x-executable",
       MIME:                 "application/x-iso9660-appimage",
     },
@@ -18258,7 +18258,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Message catalog",
-      RecommendedExtension: ".linguist",
+      RecommendedExtension: ".ts",
       Icon:                 "text-x-generic",
       MIME:                 "text/vnd.trolltech.linguist",
     },
@@ -18273,7 +18273,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "LyX document",
-      RecommendedExtension: "",
+      RecommendedExtension: ".lyx",
       Icon:                 "x-office-document",
       MIME:                 "application/x-lyx",
     },
@@ -18288,7 +18288,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Compressed CD image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".cso",
       Icon:                 "media-optical",
       MIME:                 "application/x-compressed-iso",
     },
@@ -18315,7 +18315,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Raw disk image",
-      RecommendedExtension: ".img",
+      RecommendedExtension: ".raw-disk-image",
       Icon:                 "application-x-generic",
       MIME:                 "application/vnd.efi.img",
     },
@@ -18330,7 +18330,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Rzip archive",
-      RecommendedExtension: "",
+      RecommendedExtension: ".rz",
       Icon:                 "package-x-generic",
       MIME:                 "application/x-rzip",
     },
@@ -18345,7 +18345,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Bzip3 archive",
-      RecommendedExtension: "",
+      RecommendedExtension: ".bz3",
       Icon:                 "package-x-generic",
       MIME:                 "application/x-bzip3",
     },
@@ -18360,7 +18360,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Bzip2 archive",
-      RecommendedExtension: "",
+      RecommendedExtension: ".bz2",
       Icon:                 "package-x-generic",
       MIME:                 "application/x-bzip2",
     },
@@ -18429,7 +18429,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "WebM video",
-      RecommendedExtension: "",
+      RecommendedExtension: ".webm",
       Icon:                 "application-x-generic",
       MIME:                 "video/webm",
     },
@@ -18444,7 +18444,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "MXF video",
-      RecommendedExtension: "",
+      RecommendedExtension: ".mxf",
       Icon:                 "video-x-generic",
       MIME:                 "application/mxf",
     },
@@ -18474,7 +18474,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Bzip1 archive",
-      RecommendedExtension: "",
+      RecommendedExtension: ".bz",
       Icon:                 "package-x-generic",
       MIME:                 "application/x-bzip1",
     },
@@ -18489,7 +18489,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Blender scene",
-      RecommendedExtension: "",
+      RecommendedExtension: ".blend",
       Icon:                 "image-x-generic",
       MIME:                 "application/x-blender",
     },
@@ -18504,7 +18504,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Windows or DOS program",
-      RecommendedExtension: "",
+      RecommendedExtension: ".exe",
       Icon:                 "application-x-executable",
       MIME:                 "application/x-msdownload",
     },
@@ -18519,7 +18519,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "BitTorrent seed file",
-      RecommendedExtension: "",
+      RecommendedExtension: ".torrent",
       Icon:                 "application-x-generic",
       MIME:                 "application/x-bittorrent",
     },
@@ -18570,7 +18570,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "AWK script",
-      RecommendedExtension: "",
+      RecommendedExtension: ".awk",
       Icon:                 "text-x-script",
       MIME:                 "application/x-awk",
     },
@@ -18591,7 +18591,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Electron Archive (ASAR)",
-      RecommendedExtension: "",
+      RecommendedExtension: ".asar",
       Icon:                 "application-x-generic",
       MIME:                 "application/x-asar",
     },
@@ -18610,7 +18610,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Windows program database",
-      RecommendedExtension: "",
+      RecommendedExtension: ".pdb",
       Icon:                 "application-x-generic",
       MIME:                 "application/x-ms-pdb",
     },
@@ -18629,7 +18629,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "PowerShell script",
-      RecommendedExtension: "",
+      RecommendedExtension: ".ps1",
       Icon:                 "text-x-script",
       MIME:                 "application/x-powershell",
     },
@@ -18644,7 +18644,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Windows shortcut",
-      RecommendedExtension: "",
+      RecommendedExtension: ".lnk",
       Icon:                 "emblem-symbolic-link",
       MIME:                 "application/x-ms-shortcut",
     },
@@ -18669,7 +18669,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Internet shortcut",
-      RecommendedExtension: "",
+      RecommendedExtension: ".url",
       Icon:                 "emblem-symbolic-link",
       MIME:                 "application/x-mswinurl",
     },
@@ -18692,7 +18692,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Nintendo64 ROM",
-      RecommendedExtension: "",
+      RecommendedExtension: ".n64",
       Icon:                 "application-x-executable",
       MIME:                 "application/x-n64-rom",
     },
@@ -18732,7 +18732,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Neo-Geo Pocket ROM",
-      RecommendedExtension: "",
+      RecommendedExtension: ".ngp",
       Icon:                 "application-x-executable",
       MIME:                 "application/x-neo-geo-pocket-rom",
     },
@@ -18757,7 +18757,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Neo-Geo Pocket Color ROM",
-      RecommendedExtension: "",
+      RecommendedExtension: ".ngc",
       Icon:                 "application-x-executable",
       MIME:                 "application/x-neo-geo-pocket-color-rom",
     },
@@ -18772,7 +18772,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "ARJ archive",
-      RecommendedExtension: "",
+      RecommendedExtension: ".arj",
       Icon:                 "package-x-generic",
       MIME:                 "application/x-arj",
     },
@@ -18815,7 +18815,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Object code",
-      RecommendedExtension: "",
+      RecommendedExtension: ".o",
       Icon:                 "application-x-generic",
       MIME:                 "application/x-object",
     },
@@ -18842,7 +18842,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Annodex exchange format",
-      RecommendedExtension: "",
+      RecommendedExtension: ".anx",
       Icon:                 "video-x-generic",
       MIME:                 "application/annodex",
     },
@@ -18869,7 +18869,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Annodex video",
-      RecommendedExtension: "",
+      RecommendedExtension: ".axv",
       Icon:                 "application-x-generic",
       MIME:                 "video/annodex",
     },
@@ -18896,7 +18896,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Annodex audio",
-      RecommendedExtension: "",
+      RecommendedExtension: ".axa",
       Icon:                 "application-x-generic",
       MIME:                 "audio/annodex",
     },
@@ -18911,7 +18911,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Ogg multimedia file",
-      RecommendedExtension: "",
+      RecommendedExtension: ".ogx",
       Icon:                 "video-x-generic",
       MIME:                 "application/ogg",
     },
@@ -18926,7 +18926,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Ogg audio",
-      RecommendedExtension: "",
+      RecommendedExtension: ".oga",
       Icon:                 "application-x-generic",
       MIME:                 "audio/ogg",
     },
@@ -18941,7 +18941,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Ogg video",
-      RecommendedExtension: "",
+      RecommendedExtension: ".ogv",
       Icon:                 "application-x-generic",
       MIME:                 "video/ogg",
     },
@@ -18977,7 +18977,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Applix Words document",
-      RecommendedExtension: "",
+      RecommendedExtension: ".aw",
       Icon:                 "x-office-document",
       MIME:                 "application/x-applix-word",
     },
@@ -19002,7 +19002,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Applix Spreadsheets spreadsheet",
-      RecommendedExtension: "",
+      RecommendedExtension: ".as",
       Icon:                 "x-office-spreadsheet",
       MIME:                 "application/x-applix-spreadsheet",
     },
@@ -19017,7 +19017,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "SF3 Archive",
-      RecommendedExtension: ".sf3-archive",
+      RecommendedExtension: ".sf3",
       Icon:                 "application-x-generic",
       MIME:                 "application/x.sf3-archive",
     },
@@ -19032,7 +19032,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Speex audio",
-      RecommendedExtension: "",
+      RecommendedExtension: ".spx",
       Icon:                 "application-x-generic",
       MIME:                 "audio/x-speex",
     },
@@ -19051,7 +19051,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "AportisDoc document",
-      RecommendedExtension: "",
+      RecommendedExtension: ".pdc",
       Icon:                 "x-office-document",
       MIME:                 "application/x-aportisdoc",
     },
@@ -19070,7 +19070,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "AbiWord document",
-      RecommendedExtension: "",
+      RecommendedExtension: ".abw",
       Icon:                 "x-office-document",
       MIME:                 "application/x-abiword",
     },
@@ -19100,7 +19100,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "XBEL bookmarks",
-      RecommendedExtension: "",
+      RecommendedExtension: ".xbel",
       Icon:                 "text-html",
       MIME:                 "application/x-xbel",
     },
@@ -19115,7 +19115,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "QuarkXPress document",
-      RecommendedExtension: ".quarkxpress",
+      RecommendedExtension: ".qwd",
       Icon:                 "x-office-document",
       MIME:                 "application/vnd.quark.quarkxpress",
     },
@@ -19134,7 +19134,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "SPSS data file",
-      RecommendedExtension: "",
+      RecommendedExtension: ".sav",
       Icon:                 "application-x-generic",
       MIME:                 "application/x-spss-sav",
     },
@@ -19149,7 +19149,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "SPSS portable data file",
-      RecommendedExtension: "",
+      RecommendedExtension: ".por",
       Icon:                 "application-x-generic",
       MIME:                 "application/x-spss-por",
     },
@@ -19164,7 +19164,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Windows app store installer",
-      RecommendedExtension: "",
+      RecommendedExtension: ".appinstaller",
       Icon:                 "package-x-generic",
       MIME:                 "application/appinstaller",
     },
@@ -19179,7 +19179,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "GNU Oleo spreadsheet",
-      RecommendedExtension: "",
+      RecommendedExtension: ".oleo",
       Icon:                 "x-office-spreadsheet",
       MIME:                 "application/x-oleo",
     },
@@ -19236,7 +19236,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Perl script",
-      RecommendedExtension: "",
+      RecommendedExtension: ".pl",
       Icon:                 "text-x-script",
       MIME:                 "application/x-perl",
     },
@@ -19251,7 +19251,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Proxy Auto-Configuration file",
-      RecommendedExtension: "",
+      RecommendedExtension: ".pac",
       Icon:                 "application-x-generic",
       MIME:                 "application/x-ns-proxy-autoconfig",
     },
@@ -19276,7 +19276,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "PCAPNG packet capture",
-      RecommendedExtension: "",
+      RecommendedExtension: ".pcapng",
       Icon:                 "application-x-generic",
       MIME:                 "application/x-pcapng",
     },
@@ -19291,7 +19291,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Pocket Word document",
-      RecommendedExtension: "",
+      RecommendedExtension: ".psw",
       Icon:                 "x-office-document",
       MIME:                 "application/x-pocket-word",
     },
@@ -19306,7 +19306,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Python bytecode",
-      RecommendedExtension: "",
+      RecommendedExtension: ".pyc",
       Icon:                 "application-x-generic",
       MIME:                 "application/x-python-bytecode",
     },
@@ -19321,7 +19321,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "QtiPlot document",
-      RecommendedExtension: "",
+      RecommendedExtension: ".qti",
       Icon:                 "x-office-document",
       MIME:                 "application/x-qtiplot",
     },
@@ -19355,7 +19355,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "SISX package",
-      RecommendedExtension: "",
+      RecommendedExtension: ".sisx",
       Icon:                 "package-x-generic",
       MIME:                 "x-epoc/x-sisx-app",
     },
@@ -19370,7 +19370,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "SIS package",
-      RecommendedExtension: ".install",
+      RecommendedExtension: ".sis",
       Icon:                 "package-x-generic",
       MIME:                 "application/vnd.symbian.install",
     },
@@ -19385,7 +19385,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "DAR archive",
-      RecommendedExtension: "",
+      RecommendedExtension: ".dar",
       Icon:                 "package-x-generic",
       MIME:                 "application/x-dar",
     },
@@ -19400,7 +19400,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Alzip archive",
-      RecommendedExtension: "",
+      RecommendedExtension: ".alz",
       Icon:                 "package-x-generic",
       MIME:                 "application/x-alz",
     },
@@ -19415,7 +19415,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "RPM package",
-      RecommendedExtension: "",
+      RecommendedExtension: ".rpm",
       Icon:                 "package-x-generic",
       MIME:                 "application/x-rpm",
     },
@@ -19434,7 +19434,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Ruby script",
-      RecommendedExtension: "",
+      RecommendedExtension: ".rb",
       Icon:                 "text-x-script",
       MIME:                 "application/x-ruby",
     },
@@ -19453,7 +19453,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Portable HalfMap",
-      RecommendedExtension: "",
+      RecommendedExtension: ".phm",
       Icon:                 "application-x-generic",
       MIME:                 "image/x-phm",
     },
@@ -19472,7 +19472,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Portable FloatMap",
-      RecommendedExtension: "",
+      RecommendedExtension: ".pfm",
       Icon:                 "application-x-generic",
       MIME:                 "image/x-pfm",
     },
@@ -19487,7 +19487,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Pixar raster",
-      RecommendedExtension: "",
+      RecommendedExtension: ".pxr",
       Icon:                 "application-x-generic",
       MIME:                 "image/x-pxr",
     },
@@ -19502,7 +19502,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Scitex CT",
-      RecommendedExtension: "",
+      RecommendedExtension: ".sct",
       Icon:                 "application-x-generic",
       MIME:                 "image/x-sct",
     },
@@ -19539,7 +19539,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Shared library",
-      RecommendedExtension: "",
+      RecommendedExtension: ".[0-9]*",
       Icon:                 "application-x-generic",
       MIME:                 "application/x-sharedlib",
     },
@@ -19594,7 +19594,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Shell script",
-      RecommendedExtension: "",
+      RecommendedExtension: ".sh",
       Icon:                 "text-x-script",
       MIME:                 "application/x-shellscript",
     },
@@ -19609,7 +19609,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Fish shell script",
-      RecommendedExtension: "",
+      RecommendedExtension: ".fish",
       Icon:                 "text-x-script",
       MIME:                 "application/x-fishscript",
     },
@@ -19624,7 +19624,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Nushell script",
-      RecommendedExtension: "",
+      RecommendedExtension: ".nu",
       Icon:                 "text-x-script",
       MIME:                 "application/x-nuscript",
     },
@@ -19643,7 +19643,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Shockwave Flash file",
-      RecommendedExtension: ".movie",
+      RecommendedExtension: ".swf",
       Icon:                 "video-x-generic",
       MIME:                 "application/vnd.adobe.flash.movie",
     },
@@ -19658,7 +19658,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Shorten audio",
-      RecommendedExtension: "",
+      RecommendedExtension: ".shn",
       Icon:                 "audio-x-generic",
       MIME:                 "application/x-shorten",
     },
@@ -19673,7 +19673,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Skencil document",
-      RecommendedExtension: "",
+      RecommendedExtension: ".sk",
       Icon:                 "application-x-generic",
       MIME:                 "image/x-skencil",
     },
@@ -19707,7 +19707,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "StarImpress packed presentation",
-      RecommendedExtension: ".impress-packed",
+      RecommendedExtension: ".sdp",
       Icon:                 "x-office-presentation",
       MIME:                 "application/vnd.stardivision.impress-packed",
     },
@@ -19728,7 +19728,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "SubRip subtitles",
-      RecommendedExtension: "",
+      RecommendedExtension: ".srt",
       Icon:                 "text-x-generic",
       MIME:                 "application/x-subrip",
     },
@@ -19743,7 +19743,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "WebVTT subtitles",
-      RecommendedExtension: "",
+      RecommendedExtension: ".vtt",
       Icon:                 "text-x-generic",
       MIME:                 "text/vtt",
     },
@@ -19758,7 +19758,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "SAMI subtitles",
-      RecommendedExtension: "",
+      RecommendedExtension: ".smi",
       Icon:                 "text-x-generic",
       MIME:                 "application/x-sami",
     },
@@ -19781,7 +19781,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "MicroDVD subtitles",
-      RecommendedExtension: "",
+      RecommendedExtension: ".sub",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-microdvd",
     },
@@ -19804,7 +19804,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "MPL2 subtitles",
-      RecommendedExtension: "",
+      RecommendedExtension: ".mpl",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-mpl2",
     },
@@ -19819,7 +19819,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Excellon drill file",
-      RecommendedExtension: "",
+      RecommendedExtension: ".drl",
       Icon:                 "text-x-generic",
       MIME:                 "application/x-excellon",
     },
@@ -19838,7 +19838,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "SSA subtitles",
-      RecommendedExtension: "",
+      RecommendedExtension: ".ssa",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-ssa",
     },
@@ -19853,7 +19853,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "OpenSSH public key",
-      RecommendedExtension: "",
+      RecommendedExtension: ".pub",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-ssh-public-key",
     },
@@ -19868,7 +19868,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "OpenSSH public key",
-      RecommendedExtension: "",
+      RecommendedExtension: ".pub",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-ssh-public-key",
     },
@@ -19883,7 +19883,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Atari 7800 ROM",
-      RecommendedExtension: "",
+      RecommendedExtension: ".a78",
       Icon:                 "application-x-executable",
       MIME:                 "application/x-atari-7800-rom",
     },
@@ -19898,7 +19898,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "OpenSSH public key",
-      RecommendedExtension: "",
+      RecommendedExtension: ".pub",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-ssh-public-key",
     },
@@ -19913,7 +19913,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "OpenSSH public key",
-      RecommendedExtension: "",
+      RecommendedExtension: ".pub",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-ssh-public-key",
     },
@@ -19928,7 +19928,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "OpenSSH public key",
-      RecommendedExtension: "",
+      RecommendedExtension: ".pub",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-ssh-public-key",
     },
@@ -19943,7 +19943,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "OpenSSH public key",
-      RecommendedExtension: "",
+      RecommendedExtension: ".pub",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-ssh-public-key",
     },
@@ -19958,7 +19958,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "OpenSSH public key",
-      RecommendedExtension: "",
+      RecommendedExtension: ".pub",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-ssh-public-key",
     },
@@ -19988,7 +19988,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "SubViewer subtitles",
-      RecommendedExtension: "",
+      RecommendedExtension: ".sub",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-subviewer",
     },
@@ -20003,7 +20003,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "iMelody ringtone",
-      RecommendedExtension: "",
+      RecommendedExtension: ".imy",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-iMelody",
     },
@@ -20018,7 +20018,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "SMAF audio",
-      RecommendedExtension: ".smaf",
+      RecommendedExtension: ".mmf",
       Icon:                 "audio-x-generic",
       MIME:                 "application/vnd.smaf",
     },
@@ -20033,7 +20033,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "MRML playlist",
-      RecommendedExtension: "",
+      RecommendedExtension: ".mrml",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-mrml",
     },
@@ -20048,7 +20048,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "XMF audio",
-      RecommendedExtension: "",
+      RecommendedExtension: ".xmf",
       Icon:                 "application-x-generic",
       MIME:                 "audio/x-xmf",
     },
@@ -20063,7 +20063,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Mobile XMF audio",
-      RecommendedExtension: "",
+      RecommendedExtension: ".mxmf",
       Icon:                 "application-x-generic",
       MIME:                 "audio/mobile-xmf",
     },
@@ -20078,7 +20078,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "StarMail 4 email",
-      RecommendedExtension: "",
+      RecommendedExtension: ".smd",
       Icon:                 "emblem-mail",
       MIME:                 "application/x-starmail",
     },
@@ -20093,7 +20093,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "TGIF document",
-      RecommendedExtension: "",
+      RecommendedExtension: ".obj",
       Icon:                 "x-office-document",
       MIME:                 "application/x-tgif",
     },
@@ -20120,7 +20120,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Troff document",
-      RecommendedExtension: "",
+      RecommendedExtension: ".tr",
       Icon:                 "text-x-generic",
       MIME:                 "text/troff",
     },
@@ -20135,7 +20135,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "TNEF message",
-      RecommendedExtension: ".ms-tnef",
+      RecommendedExtension: ".tnef",
       Icon:                 "application-x-generic",
       MIME:                 "application/vnd.ms-tnef",
     },
@@ -20150,7 +20150,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Zpaq Archive",
-      RecommendedExtension: "",
+      RecommendedExtension: ".zpaq",
       Icon:                 "package-x-generic",
       MIME:                 "application/x-zpaq",
     },
@@ -20165,7 +20165,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "GNUnet search file",
-      RecommendedExtension: "",
+      RecommendedExtension: ".gnd",
       Icon:                 "application-x-generic",
       MIME:                 "application/gnunet-directory",
     },
@@ -20184,7 +20184,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "DER/PEM/Netscape-encoded X.509 certificate",
-      RecommendedExtension: "",
+      RecommendedExtension: ".der",
       Icon:                 "text-x-generic",
       MIME:                 "application/x-x509-ca-cert",
     },
@@ -20199,7 +20199,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "JET database",
-      RecommendedExtension: ".ms-access",
+      RecommendedExtension: ".mdb",
       Icon:                 "x-office-document",
       MIME:                 "application/vnd.ms-access",
     },
@@ -20214,7 +20214,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "LMDB database",
-      RecommendedExtension: "",
+      RecommendedExtension: ".mdb",
       Icon:                 "x-office-document",
       MIME:                 "application/x-lmdb",
     },
@@ -20229,7 +20229,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Lotus Word Pro document",
-      RecommendedExtension: ".lotus-wordpro",
+      RecommendedExtension: ".lwp",
       Icon:                 "x-office-document",
       MIME:                 "application/vnd.lotus-wordpro",
     },
@@ -20244,7 +20244,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "WIM disk image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".wim",
       Icon:                 "application-x-generic",
       MIME:                 "application/x-ms-wim",
     },
@@ -20259,7 +20259,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Dolby Digital audio",
-      RecommendedExtension: "",
+      RecommendedExtension: ".ac3",
       Icon:                 "application-x-generic",
       MIME:                 "audio/ac3",
     },
@@ -20301,7 +20301,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Lotus 1-2-3 spreadsheet",
-      RecommendedExtension: ".lotus-1-2-3",
+      RecommendedExtension: ".123",
       Icon:                 "x-office-spreadsheet",
       MIME:                 "application/vnd.lotus-1-2-3",
     },
@@ -20320,7 +20320,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "AMR audio",
-      RecommendedExtension: "",
+      RecommendedExtension: ".amr",
       Icon:                 "application-x-generic",
       MIME:                 "audio/AMR",
     },
@@ -20339,7 +20339,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "AMR-WB audio",
-      RecommendedExtension: "",
+      RecommendedExtension: ".awb",
       Icon:                 "application-x-generic",
       MIME:                 "audio/AMR-WB",
     },
@@ -20370,7 +20370,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Gerber file",
-      RecommendedExtension: ".gerber",
+      RecommendedExtension: ".gbr",
       Icon:                 "text-x-generic",
       MIME:                 "application/vnd.gerber",
     },
@@ -20459,7 +20459,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "AIFC audio",
-      RecommendedExtension: "",
+      RecommendedExtension: ".aifc",
       Icon:                 "application-x-generic",
       MIME:                 "audio/x-aifc",
     },
@@ -20478,7 +20478,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "AIFF/Amiga/Mac audio",
-      RecommendedExtension: "",
+      RecommendedExtension: ".aiff",
       Icon:                 "application-x-generic",
       MIME:                 "audio/x-aiff",
     },
@@ -20493,7 +20493,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Monkey's audio",
-      RecommendedExtension: "",
+      RecommendedExtension: ".ape",
       Icon:                 "application-x-generic",
       MIME:                 "audio/x-ape",
     },
@@ -20508,7 +20508,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Audible.Com audio",
-      RecommendedExtension: "",
+      RecommendedExtension: ".aa",
       Icon:                 "application-x-generic",
       MIME:                 "audio/x-pn-audibleaudio",
     },
@@ -20559,7 +20559,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "DSDIFF audio",
-      RecommendedExtension: "",
+      RecommendedExtension: ".dff",
       Icon:                 "application-x-generic",
       MIME:                 "audio/x-dff",
     },
@@ -20586,7 +20586,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "DSF audio",
-      RecommendedExtension: "",
+      RecommendedExtension: ".dsf",
       Icon:                 "application-x-generic",
       MIME:                 "audio/x-dsf",
     },
@@ -20601,7 +20601,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Impulse Tracker audio",
-      RecommendedExtension: "",
+      RecommendedExtension: ".it",
       Icon:                 "application-x-generic",
       MIME:                 "audio/x-it",
     },
@@ -20616,7 +20616,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "FLAC audio",
-      RecommendedExtension: "",
+      RecommendedExtension: ".flac",
       Icon:                 "application-x-generic",
       MIME:                 "audio/flac",
     },
@@ -20631,7 +20631,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "TAK audio",
-      RecommendedExtension: "",
+      RecommendedExtension: ".tak",
       Icon:                 "application-x-generic",
       MIME:                 "audio/x-tak",
     },
@@ -20646,7 +20646,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "WavPack audio",
-      RecommendedExtension: "",
+      RecommendedExtension: ".wv",
       Icon:                 "application-x-generic",
       MIME:                 "audio/x-wavpack",
     },
@@ -20661,7 +20661,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "WavPack audio correction file",
-      RecommendedExtension: "",
+      RecommendedExtension: ".wvc",
       Icon:                 "application-x-generic",
       MIME:                 "audio/x-wavpack-correction",
     },
@@ -20676,7 +20676,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "MIDI audio",
-      RecommendedExtension: "",
+      RecommendedExtension: ".mid",
       Icon:                 "application-x-generic",
       MIME:                 "audio/midi",
     },
@@ -20691,7 +20691,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Compressed Tracker audio",
-      RecommendedExtension: "",
+      RecommendedExtension: ".mo3",
       Icon:                 "application-x-generic",
       MIME:                 "audio/x-mo3",
     },
@@ -20711,7 +20711,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "AAC audio",
-      RecommendedExtension: "",
+      RecommendedExtension: ".aac",
       Icon:                 "application-x-generic",
       MIME:                 "audio/aac",
     },
@@ -20726,7 +20726,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "MPEG-4 audio",
-      RecommendedExtension: "",
+      RecommendedExtension: ".m4a",
       Icon:                 "application-x-generic",
       MIME:                 "audio/mp4",
     },
@@ -20761,7 +20761,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "MPEG-4 video",
-      RecommendedExtension: "",
+      RecommendedExtension: ".lrf",
       Icon:                 "application-x-generic",
       MIME:                 "video/mp4",
     },
@@ -20776,7 +20776,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "MPEG-4 audio book",
-      RecommendedExtension: "",
+      RecommendedExtension: ".m4b",
       Icon:                 "application-x-generic",
       MIME:                 "audio/x-m4b",
     },
@@ -20803,7 +20803,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "3GPP multimedia file",
-      RecommendedExtension: "",
+      RecommendedExtension: ".3gp",
       Icon:                 "application-x-generic",
       MIME:                 "video/3gpp",
     },
@@ -20818,7 +20818,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "3GPP2 multimedia file",
-      RecommendedExtension: "",
+      RecommendedExtension: ".3g2",
       Icon:                 "application-x-generic",
       MIME:                 "video/3gpp2",
     },
@@ -20833,7 +20833,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Atari Lynx ROM",
-      RecommendedExtension: "",
+      RecommendedExtension: ".lnx",
       Icon:                 "application-x-executable",
       MIME:                 "application/x-atari-lynx-rom",
     },
@@ -20859,7 +20859,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Dynamic Studio module audio",
-      RecommendedExtension: "",
+      RecommendedExtension: ".dsm",
       Icon:                 "application-x-generic",
       MIME:                 "audio/x-dsp",
     },
@@ -20898,7 +20898,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "MP3 audio",
-      RecommendedExtension: "",
+      RecommendedExtension: ".mp3",
       Icon:                 "application-x-generic",
       MIME:                 "audio/mpeg",
     },
@@ -20913,7 +20913,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Media playlist",
-      RecommendedExtension: "",
+      RecommendedExtension: ".m3u",
       Icon:                 "application-x-generic",
       MIME:                 "audio/x-mpegurl",
     },
@@ -20928,7 +20928,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "PostScript printer description",
-      RecommendedExtension: ".cups-ppd",
+      RecommendedExtension: ".ppd",
       Icon:                 "application-x-generic",
       MIME:                 "application/vnd.cups-ppd",
     },
@@ -20943,7 +20943,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "YAML document",
-      RecommendedExtension: "",
+      RecommendedExtension: ".yaml",
       Icon:                 "text-x-generic",
       MIME:                 "application/yaml",
     },
@@ -20958,7 +20958,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "PSF audio",
-      RecommendedExtension: "",
+      RecommendedExtension: ".psf",
       Icon:                 "application-x-generic",
       MIME:                 "audio/x-psf",
     },
@@ -20977,7 +20977,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Musepack audio",
-      RecommendedExtension: "",
+      RecommendedExtension: ".mpc",
       Icon:                 "application-x-generic",
       MIME:                 "audio/x-musepack",
     },
@@ -20992,7 +20992,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "RealMedia document",
-      RecommendedExtension: ".rn-realmedia",
+      RecommendedExtension: ".rm",
       Icon:                 "video-x-generic",
       MIME:                 "application/vnd.rn-realmedia",
     },
@@ -21007,7 +21007,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Radiance HDR image",
-      RecommendedExtension: ".radiance",
+      RecommendedExtension: ".hdr",
       Icon:                 "application-x-generic",
       MIME:                 "image/vnd.radiance",
     },
@@ -21022,7 +21022,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "WASM binary module",
-      RecommendedExtension: "",
+      RecommendedExtension: ".wasm",
       Icon:                 "application-x-generic",
       MIME:                 "application/wasm",
     },
@@ -21037,7 +21037,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Scream Tracker 3 audio",
-      RecommendedExtension: "",
+      RecommendedExtension: ".s3m",
       Icon:                 "application-x-generic",
       MIME:                 "audio/x-s3m",
     },
@@ -21060,7 +21060,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "MP3 ShoutCast playlist",
-      RecommendedExtension: "",
+      RecommendedExtension: ".pls",
       Icon:                 "application-x-generic",
       MIME:                 "audio/x-scpls",
     },
@@ -21083,7 +21083,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Scream Tracker audio",
-      RecommendedExtension: "",
+      RecommendedExtension: ".stm",
       Icon:                 "application-x-generic",
       MIME:                 "audio/x-stm",
     },
@@ -21102,7 +21102,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "WAV audio",
-      RecommendedExtension: ".wave",
+      RecommendedExtension: ".wav",
       Icon:                 "application-x-generic",
       MIME:                 "audio/vnd.wave",
     },
@@ -21117,7 +21117,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "FastTracker II instrument",
-      RecommendedExtension: "",
+      RecommendedExtension: ".xi",
       Icon:                 "application-x-generic",
       MIME:                 "audio/x-xi",
     },
@@ -21132,7 +21132,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "GameCube disc image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".iso",
       Icon:                 "application-x-executable",
       MIME:                 "application/x-gamecube-rom",
     },
@@ -21147,7 +21147,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "TrueAudio audio",
-      RecommendedExtension: "",
+      RecommendedExtension: ".tta",
       Icon:                 "application-x-generic",
       MIME:                 "audio/x-tta",
     },
@@ -21181,7 +21181,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Windows BMP image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".bmp",
       Icon:                 "application-x-generic",
       MIME:                 "image/bmp",
     },
@@ -21196,7 +21196,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "GIF image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".gif",
       Icon:                 "application-x-generic",
       MIME:                 "image/gif",
     },
@@ -21211,7 +21211,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "OpenZIM file",
-      RecommendedExtension: "",
+      RecommendedExtension: ".zim",
       Icon:                 "application-x-generic",
       MIME:                 "application/x-openzim",
     },
@@ -21226,7 +21226,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "JPEG 2000 image encapsulated in HEIF",
-      RecommendedExtension: "",
+      RecommendedExtension: ".hej2",
       Icon:                 "application-x-generic",
       MIME:                 "image/hej2k",
     },
@@ -21241,7 +21241,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "AVC-encoded image encapsulated in HEIF",
-      RecommendedExtension: "",
+      RecommendedExtension: ".avci",
       Icon:                 "application-x-generic",
       MIME:                 "image/avci",
     },
@@ -21260,7 +21260,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "JPEG image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".jpg",
       Icon:                 "application-x-generic",
       MIME:                 "image/jpeg",
     },
@@ -21275,7 +21275,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "JPEG-2000 codestream",
-      RecommendedExtension: "",
+      RecommendedExtension: ".j2c",
       Icon:                 "application-x-generic",
       MIME:                 "image/x-jp2-codestream",
     },
@@ -21291,7 +21291,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "JPEG-2000 JP2 image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".jp2",
       Icon:                 "application-x-generic",
       MIME:                 "image/jp2",
     },
@@ -21307,7 +21307,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "JPEG-2000 JPX image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".jpf",
       Icon:                 "application-x-generic",
       MIME:                 "image/jpx",
     },
@@ -21323,7 +21323,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "JPEG-2000 JPM image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".jpm",
       Icon:                 "application-x-generic",
       MIME:                 "image/jpm",
     },
@@ -21339,7 +21339,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "JPEG-2000 MJ2 video",
-      RecommendedExtension: "",
+      RecommendedExtension: ".mj2",
       Icon:                 "application-x-generic",
       MIME:                 "video/mj2",
     },
@@ -21358,7 +21358,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "JPEG XL image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".jxl",
       Icon:                 "application-x-generic",
       MIME:                 "image/jxl",
     },
@@ -21373,7 +21373,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "ITS translation file",
-      RecommendedExtension: "",
+      RecommendedExtension: ".its",
       Icon:                 "text-x-generic",
       MIME:                 "application/its+xml",
     },
@@ -21388,7 +21388,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "DirectDraw surface",
-      RecommendedExtension: "",
+      RecommendedExtension: ".dds",
       Icon:                 "application-x-generic",
       MIME:                 "image/x-dds",
     },
@@ -21418,7 +21418,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "EXR image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".exr",
       Icon:                 "application-x-generic",
       MIME:                 "image/x-exr",
     },
@@ -21451,7 +21451,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Macintosh Quickdraw/PICT drawing",
-      RecommendedExtension: "",
+      RecommendedExtension: ".pct",
       Icon:                 "application-x-generic",
       MIME:                 "image/x-pict",
     },
@@ -21484,7 +21484,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Macintosh Quickdraw/PICT drawing",
-      RecommendedExtension: "",
+      RecommendedExtension: ".pct",
       Icon:                 "application-x-generic",
       MIME:                 "image/x-pict",
     },
@@ -21499,7 +21499,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Canon CRW raw image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".crw",
       Icon:                 "application-x-generic",
       MIME:                 "image/x-canon-crw",
     },
@@ -21514,7 +21514,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Fuji RAF raw image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".raf",
       Icon:                 "application-x-generic",
       MIME:                 "image/x-fuji-raf",
     },
@@ -21529,7 +21529,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Godot Engine scene",
-      RecommendedExtension: "",
+      RecommendedExtension: ".scn",
       Icon:                 "application-x-generic",
       MIME:                 "application/x-godot-scene",
     },
@@ -21544,7 +21544,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Minolta MRW raw image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".mrw",
       Icon:                 "application-x-generic",
       MIME:                 "image/x-minolta-mrw",
     },
@@ -21559,7 +21559,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Olympus ORF raw image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".orf",
       Icon:                 "application-x-generic",
       MIME:                 "image/x-olympus-orf",
     },
@@ -21574,7 +21574,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Panasonic raw image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".raw",
       Icon:                 "application-x-generic",
       MIME:                 "image/x-panasonic-rw",
     },
@@ -21589,7 +21589,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Panasonic raw image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".rw2",
       Icon:                 "application-x-generic",
       MIME:                 "image/x-panasonic-rw2",
     },
@@ -21611,7 +21611,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Sigma X3F raw image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".x3f",
       Icon:                 "application-x-generic",
       MIME:                 "image/x-sigma-x3f",
     },
@@ -21626,7 +21626,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "BroadBand eBook",
-      RecommendedExtension: "",
+      RecommendedExtension: ".lrf",
       Icon:                 "x-office-document",
       MIME:                 "application/x-sony-bbeb",
     },
@@ -21641,7 +21641,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "PNG image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".png",
       Icon:                 "application-x-generic",
       MIME:                 "image/png",
     },
@@ -21656,7 +21656,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Godot Engine resource",
-      RecommendedExtension: "",
+      RecommendedExtension: ".res",
       Icon:                 "application-x-generic",
       MIME:                 "application/x-godot-resource",
     },
@@ -21675,7 +21675,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "SGF record",
-      RecommendedExtension: "",
+      RecommendedExtension: ".sgf",
       Icon:                 "text-x-generic",
       MIME:                 "application/x-go-sgf",
     },
@@ -21700,7 +21700,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Smacker Video",
-      RecommendedExtension: ".smacker",
+      RecommendedExtension: ".smk",
       Icon:                 "application-x-generic",
       MIME:                 "video/vnd.radgamettools.smacker",
     },
@@ -21719,7 +21719,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "TIFF image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".tif",
       Icon:                 "application-x-generic",
       MIME:                 "image/tiff",
     },
@@ -21753,7 +21753,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "MDI image",
-      RecommendedExtension: ".ms-modi",
+      RecommendedExtension: ".mdi",
       Icon:                 "application-x-generic",
       MIME:                 "image/vnd.ms-modi",
     },
@@ -21768,7 +21768,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "JPEG XR image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".jxr",
       Icon:                 "application-x-generic",
       MIME:                 "image/jxr",
     },
@@ -21789,7 +21789,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "WebP image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".webp",
       Icon:                 "application-x-generic",
       MIME:                 "image/webp",
     },
@@ -21864,7 +21864,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Bink Video",
-      RecommendedExtension: ".bink",
+      RecommendedExtension: ".bik",
       Icon:                 "application-x-generic",
       MIME:                 "video/vnd.radgamettools.bink",
     },
@@ -21885,7 +21885,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Applix Graphics image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".ag",
       Icon:                 "application-x-generic",
       MIME:                 "image/x-applix-graphics",
     },
@@ -21900,7 +21900,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "DICOM image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".dcm",
       Icon:                 "image-x-generic",
       MIME:                 "application/dicom",
     },
@@ -21915,7 +21915,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Quite OK Image Format",
-      RecommendedExtension: "",
+      RecommendedExtension: ".qoi",
       Icon:                 "application-x-generic",
       MIME:                 "image/qoi",
     },
@@ -21945,7 +21945,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Flash video",
-      RecommendedExtension: "",
+      RecommendedExtension: ".flv",
       Icon:                 "video-x-generic",
       MIME:                 "video/x-flv",
     },
@@ -21960,7 +21960,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "GEDCOM family history",
-      RecommendedExtension: ".gedcom",
+      RecommendedExtension: ".ged",
       Icon:                 "x-office-document",
       MIME:                 "text/vnd.familysearch.gedcom",
     },
@@ -21996,7 +21996,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Apple System Profiler",
-      RecommendedExtension: "",
+      RecommendedExtension: ".spx",
       Icon:                 "application-x-generic",
       MIME:                 "application/x-apple-systemprofiler+xml",
     },
@@ -22011,7 +22011,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "FITS document",
-      RecommendedExtension: "",
+      RecommendedExtension: ".fits",
       Icon:                 "application-x-generic",
       MIME:                 "application/fits",
     },
@@ -22047,7 +22047,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Windows icon",
-      RecommendedExtension: ".icon",
+      RecommendedExtension: ".ico",
       Icon:                 "application-x-generic",
       MIME:                 "image/vnd.microsoft.icon",
     },
@@ -22062,7 +22062,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "MacOS X icon",
-      RecommendedExtension: "",
+      RecommendedExtension: ".icns",
       Icon:                 "application-x-generic",
       MIME:                 "image/x-icns",
     },
@@ -22081,7 +22081,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "ILBM image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".iff",
       Icon:                 "application-x-generic",
       MIME:                 "image/x-ilbm",
     },
@@ -22096,7 +22096,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "SQLite2 database",
-      RecommendedExtension: "",
+      RecommendedExtension: ".sqlite2",
       Icon:                 "application-x-generic",
       MIME:                 "application/x-sqlite2",
     },
@@ -22184,7 +22184,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "PBM image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".pbm",
       Icon:                 "application-x-generic",
       MIME:                 "image/x-portable-bitmap",
     },
@@ -22239,7 +22239,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "PGM image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".pgm",
       Icon:                 "application-x-generic",
       MIME:                 "image/x-portable-graymap",
     },
@@ -22294,7 +22294,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "PPM image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".ppm",
       Icon:                 "application-x-generic",
       MIME:                 "image/x-portable-pixmap",
     },
@@ -22310,7 +22310,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Photoshop image",
-      RecommendedExtension: ".photoshop",
+      RecommendedExtension: ".psd",
       Icon:                 "application-x-generic",
       MIME:                 "image/vnd.adobe.photoshop",
     },
@@ -22325,7 +22325,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Sun raster image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".sun",
       Icon:                 "application-x-generic",
       MIME:                 "image/x-sun-raster",
     },
@@ -22362,7 +22362,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "AVIF image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".avif",
       Icon:                 "application-x-generic",
       MIME:                 "image/avif",
     },
@@ -22395,7 +22395,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "TGA image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".tga",
       Icon:                 "application-x-generic",
       MIME:                 "image/x-tga",
     },
@@ -22416,7 +22416,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Windows cursor",
-      RecommendedExtension: "",
+      RecommendedExtension: ".cur",
       Icon:                 "application-x-generic",
       MIME:                 "image/x-win-bitmap",
     },
@@ -22437,7 +22437,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Windows animated cursor",
-      RecommendedExtension: "",
+      RecommendedExtension: ".ani",
       Icon:                 "application-x-generic",
       MIME:                 "application/x-navi-animation",
     },
@@ -22470,7 +22470,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "EMF image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".emf",
       Icon:                 "application-x-generic",
       MIME:                 "image/emf",
     },
@@ -22507,7 +22507,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "WMF image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".wmf",
       Icon:                 "application-x-generic",
       MIME:                 "image/wmf",
     },
@@ -22526,7 +22526,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "GIMP image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".xcf",
       Icon:                 "application-x-generic",
       MIME:                 "image/x-xcf",
     },
@@ -22541,7 +22541,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "GIMP brush",
-      RecommendedExtension: "",
+      RecommendedExtension: ".gbr",
       Icon:                 "application-x-generic",
       MIME:                 "image/x-gimp-gbr",
     },
@@ -22556,7 +22556,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "GIMP pattern",
-      RecommendedExtension: "",
+      RecommendedExtension: ".pat",
       Icon:                 "application-x-generic",
       MIME:                 "image/x-gimp-pat",
     },
@@ -22571,7 +22571,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "XFig image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".fig",
       Icon:                 "application-x-generic",
       MIME:                 "image/x-xfig",
     },
@@ -22590,7 +22590,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "XPM image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".xpm",
       Icon:                 "application-x-generic",
       MIME:                 "image/x-xpixmap",
     },
@@ -22605,7 +22605,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "KiSS cel",
-      RecommendedExtension: "",
+      RecommendedExtension: ".cel",
       Icon:                 "application-x-generic",
       MIME:                 "image/x-kiss-cel",
     },
@@ -22687,7 +22687,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Email message",
-      RecommendedExtension: "",
+      RecommendedExtension: ".eml",
       Icon:                 "emblem-mail",
       MIME:                 "message/rfc822",
     },
@@ -22706,7 +22706,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "IGES document",
-      RecommendedExtension: "",
+      RecommendedExtension: ".igs",
       Icon:                 "x-office-document",
       MIME:                 "model/iges",
     },
@@ -22721,7 +22721,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "glTF model",
-      RecommendedExtension: "",
+      RecommendedExtension: ".glb",
       Icon:                 "image-x-generic",
       MIME:                 "model/gltf-binary",
     },
@@ -22736,7 +22736,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "VRML document",
-      RecommendedExtension: "",
+      RecommendedExtension: ".vrm",
       Icon:                 "x-office-document",
       MIME:                 "model/vrml",
     },
@@ -22755,7 +22755,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "OBJ 3D model",
-      RecommendedExtension: "",
+      RecommendedExtension: ".obj",
       Icon:                 "image-x-generic",
       MIME:                 "model/obj",
     },
@@ -22774,7 +22774,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "OBJ 3D model material library",
-      RecommendedExtension: "",
+      RecommendedExtension: ".mtl",
       Icon:                 "image-x-generic",
       MIME:                 "model/mtl",
     },
@@ -22793,7 +22793,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "VCS/ICS calendar",
-      RecommendedExtension: "",
+      RecommendedExtension: ".vcs",
       Icon:                 "x-office-calendar",
       MIME:                 "text/calendar",
     },
@@ -22808,7 +22808,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "SPDX document",
-      RecommendedExtension: "",
+      RecommendedExtension: ".spdx",
       Icon:                 "text-x-generic",
       MIME:                 "text/spdx",
     },
@@ -22827,7 +22827,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Electronic business card",
-      RecommendedExtension: "",
+      RecommendedExtension: ".vcard",
       Icon:                 "text-x-generic",
       MIME:                 "text/vcard",
     },
@@ -22842,7 +22842,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "RTF document",
-      RecommendedExtension: "",
+      RecommendedExtension: ".rtf",
       Icon:                 "x-office-document",
       MIME:                 "application/rtf",
     },
@@ -22857,7 +22857,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Flattened Devicetree",
-      RecommendedExtension: "",
+      RecommendedExtension: ".dtb",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-devicetree-binary",
     },
@@ -22876,7 +22876,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Plain text document",
-      RecommendedExtension: "",
+      RecommendedExtension: ".txt",
       Icon:                 "text-x-generic",
       MIME:                 "text/plain",
     },
@@ -22891,7 +22891,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "OWL XML file",
-      RecommendedExtension: "",
+      RecommendedExtension: ".owx",
       Icon:                 "application-x-generic",
       MIME:                 "application/owl+xml",
     },
@@ -22906,7 +22906,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "RAML document",
-      RecommendedExtension: "",
+      RecommendedExtension: ".raml",
       Icon:                 "application-x-generic",
       MIME:                 "application/raml+yaml",
     },
@@ -22921,7 +22921,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "BuildStream element",
-      RecommendedExtension: "",
+      RecommendedExtension: ".bst",
       Icon:                 "application-x-generic",
       MIME:                 "application/buildstream+yaml",
     },
@@ -22940,7 +22940,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "PostScript document",
-      RecommendedExtension: "",
+      RecommendedExtension: ".ps",
       Icon:                 "x-office-document",
       MIME:                 "application/postscript",
     },
@@ -22955,7 +22955,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Spreadsheet interchange document",
-      RecommendedExtension: "",
+      RecommendedExtension: ".sylk",
       Icon:                 "x-office-spreadsheet",
       MIME:                 "application/x-sylk",
     },
@@ -22982,7 +22982,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Graphviz DOT graph",
-      RecommendedExtension: ".graphviz",
+      RecommendedExtension: ".gv",
       Icon:                 "x-office-document",
       MIME:                 "text/vnd.graphviz",
     },
@@ -22997,7 +22997,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "JAD document",
-      RecommendedExtension: ".app-descriptor",
+      RecommendedExtension: ".jad",
       Icon:                 "text-x-generic",
       MIME:                 "text/vnd.sun.j2me.app-descriptor",
     },
@@ -23019,7 +23019,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Devicetree source code",
-      RecommendedExtension: "",
+      RecommendedExtension: ".dts",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-devicetree-source",
     },
@@ -23034,7 +23034,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Certificate revocation list",
-      RecommendedExtension: "",
+      RecommendedExtension: ".crl",
       Icon:                 "application-x-generic",
       MIME:                 "application/pkix-crl",
     },
@@ -23049,7 +23049,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "BibTeX document",
-      RecommendedExtension: "",
+      RecommendedExtension: ".bib",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-bibtex",
     },
@@ -23064,7 +23064,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Pyspread spreadsheet",
-      RecommendedExtension: "",
+      RecommendedExtension: ".pysu",
       Icon:                 "x-office-spreadsheet",
       MIME:                 "application/x-pyspread-spreadsheet",
     },
@@ -23079,7 +23079,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Docker container build file",
-      RecommendedExtension: "",
+      RecommendedExtension: ".Dockerfile",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-dockerfile",
     },
@@ -23118,7 +23118,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Assembly code",
-      RecommendedExtension: "",
+      RecommendedExtension: ".asm",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-asm",
     },
@@ -23133,7 +23133,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "IPS patch",
-      RecommendedExtension: "",
+      RecommendedExtension: ".ips",
       Icon:                 "application-x-generic",
       MIME:                 "application/x-ips-patch",
     },
@@ -23148,7 +23148,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "BPS patch",
-      RecommendedExtension: "",
+      RecommendedExtension: ".bps",
       Icon:                 "application-x-generic",
       MIME:                 "application/x-bps-patch",
     },
@@ -23183,7 +23183,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "VDI disk image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".vdi",
       Icon:                 "application-x-generic",
       MIME:                 "application/x-vdi-disk",
     },
@@ -23202,7 +23202,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "VMDK disk image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".vmdk",
       Icon:                 "application-x-generic",
       MIME:                 "application/x-vmdk-disk",
     },
@@ -23217,7 +23217,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "VHDX disk image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".vhdx",
       Icon:                 "application-x-generic",
       MIME:                 "application/x-vhdx-disk",
     },
@@ -23236,7 +23236,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Emacs Lisp source code",
-      RecommendedExtension: "",
+      RecommendedExtension: ".el",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-emacs-lisp",
     },
@@ -23251,7 +23251,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "VHD disk image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".vhd",
       Icon:                 "application-x-generic",
       MIME:                 "application/x-vhd-disk",
     },
@@ -23272,7 +23272,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "QEMU QCOW disk image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".qcow2",
       Icon:                 "application-x-generic",
       MIME:                 "application/x-qemu-disk",
     },
@@ -23287,7 +23287,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Translation template",
-      RecommendedExtension: "",
+      RecommendedExtension: ".pot",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-gettext-translation-template",
     },
@@ -23354,7 +23354,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "HTML document",
-      RecommendedExtension: "",
+      RecommendedExtension: ".html",
       Icon:                 "text-x-generic",
       MIME:                 "text/html",
     },
@@ -23369,7 +23369,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "QEMU QED disk image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".qed",
       Icon:                 "application-x-generic",
       MIME:                 "application/x-qed-disk",
     },
@@ -23388,7 +23388,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "X.509 certificate",
-      RecommendedExtension: "",
+      RecommendedExtension: ".cer",
       Icon:                 "application-x-generic",
       MIME:                 "application/pkix-cert",
     },
@@ -23421,7 +23421,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Web application cache file",
-      RecommendedExtension: "",
+      RecommendedExtension: ".manifest",
       Icon:                 "text-x-generic",
       MIME:                 "text/cache-manifest",
     },
@@ -23440,7 +23440,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Google Video Pointer shortcut",
-      RecommendedExtension: "",
+      RecommendedExtension: ".gvp",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-google-video-pointer",
     },
@@ -23459,7 +23459,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Macintosh BinHex-encoded file",
-      RecommendedExtension: "",
+      RecommendedExtension: ".hqx",
       Icon:                 "package-x-generic",
       MIME:                 "application/mac-binhex40",
     },
@@ -23478,7 +23478,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "LDIF address book",
-      RecommendedExtension: "",
+      RecommendedExtension: ".ldif",
       Icon:                 "x-office-address-book",
       MIME:                 "text/x-ldif",
     },
@@ -23497,7 +23497,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Makefile build file",
-      RecommendedExtension: "",
+      RecommendedExtension: ".mk",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-makefile",
     },
@@ -23520,7 +23520,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Windows Registry extract",
-      RecommendedExtension: "",
+      RecommendedExtension: ".reg",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-ms-regedit",
     },
@@ -23535,7 +23535,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Visual Studio Project",
-      RecommendedExtension: ".project",
+      RecommendedExtension: ".dsp",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-ms-visualstudio.project",
     },
@@ -23550,7 +23550,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Visual Studio Workspace",
-      RecommendedExtension: ".workspace",
+      RecommendedExtension: ".dsw",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-ms-visualstudio.workspace",
     },
@@ -23565,7 +23565,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Mup musical composition document",
-      RecommendedExtension: "",
+      RecommendedExtension: ".mup",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-mup",
     },
@@ -23580,7 +23580,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Nintendo FDS disk image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".fds",
       Icon:                 "application-x-generic",
       MIME:                 "application/x-fds-disk",
     },
@@ -23595,7 +23595,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "G-code Extended file",
-      RecommendedExtension: "",
+      RecommendedExtension: ".gx",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-gcode-gx",
     },
@@ -23610,7 +23610,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "STEP 3D model",
-      RecommendedExtension: "",
+      RecommendedExtension: ".step",
       Icon:                 "image-x-generic",
       MIME:                 "model/step",
     },
@@ -23629,7 +23629,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "STL 3D model",
-      RecommendedExtension: "",
+      RecommendedExtension: ".stl",
       Icon:                 "image-x-generic",
       MIME:                 "model/stl",
     },
@@ -23677,7 +23677,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Squashfs filesystem image",
-      RecommendedExtension: ".squashfs",
+      RecommendedExtension: ".sfs",
       Icon:                 "application-x-generic",
       MIME:                 "application/vnd.squashfs",
     },
@@ -23728,7 +23728,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Differences between files",
-      RecommendedExtension: "",
+      RecommendedExtension: ".diff",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-patch",
     },
@@ -23743,7 +23743,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Flatpak repository reference",
-      RecommendedExtension: ".ref",
+      RecommendedExtension: ".flatpakref",
       Icon:                 "package-x-generic",
       MIME:                 "application/vnd.flatpak.ref",
     },
@@ -23758,7 +23758,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Flatpak repository description",
-      RecommendedExtension: ".repo",
+      RecommendedExtension: ".flatpakrepo",
       Icon:                 "package-x-generic",
       MIME:                 "application/vnd.flatpak.repo",
     },
@@ -23792,7 +23792,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Amiga disk image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".adf",
       Icon:                 "application-x-generic",
       MIME:                 "application/x-amiga-disk-format",
     },
@@ -23807,7 +23807,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Detached OpenPGP signature",
-      RecommendedExtension: "",
+      RecommendedExtension: ".sig",
       Icon:                 "application-x-generic",
       MIME:                 "application/pgp-signature",
     },
@@ -23842,7 +23842,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "PGP keys",
-      RecommendedExtension: "",
+      RecommendedExtension: ".skr",
       Icon:                 "application-x-generic",
       MIME:                 "application/pgp-keys",
     },
@@ -23893,7 +23893,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Python script",
-      RecommendedExtension: "",
+      RecommendedExtension: ".py",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-python",
     },
@@ -23912,7 +23912,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Doom WAD file",
-      RecommendedExtension: "",
+      RecommendedExtension: ".wad",
       Icon:                 "package-x-generic",
       MIME:                 "application/x-doom-wad",
     },
@@ -23939,7 +23939,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Lua script",
-      RecommendedExtension: "",
+      RecommendedExtension: ".lua",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-lua",
     },
@@ -23962,7 +23962,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Mathematica Notebook file",
-      RecommendedExtension: "",
+      RecommendedExtension: ".nb",
       Icon:                 "x-office-document",
       MIME:                 "application/mathematica",
     },
@@ -23977,7 +23977,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Metalink file",
-      RecommendedExtension: "",
+      RecommendedExtension: ".metalink",
       Icon:                 "application-x-generic",
       MIME:                 "application/metalink+xml",
     },
@@ -23996,7 +23996,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "RPM spec file",
-      RecommendedExtension: "",
+      RecommendedExtension: ".spec",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-rpm-spec",
     },
@@ -24011,7 +24011,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Metalink file",
-      RecommendedExtension: "",
+      RecommendedExtension: ".meta4",
       Icon:                 "application-x-generic",
       MIME:                 "application/metalink4+xml",
     },
@@ -24026,7 +24026,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "PDF document",
-      RecommendedExtension: "",
+      RecommendedExtension: ".pdf",
       Icon:                 "x-office-document",
       MIME:                 "application/pdf",
     },
@@ -24041,7 +24041,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "TeX document",
-      RecommendedExtension: "",
+      RecommendedExtension: ".tex",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-tex",
     },
@@ -24056,7 +24056,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "uuencoded file",
-      RecommendedExtension: "",
+      RecommendedExtension: ".uue",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-uuencode",
     },
@@ -24079,7 +24079,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Visual Basic .NET source code",
-      RecommendedExtension: "",
+      RecommendedExtension: ".vb",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-vb",
     },
@@ -24094,7 +24094,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Encoded VBScript program",
-      RecommendedExtension: ".encode",
+      RecommendedExtension: ".vbe",
       Icon:                 "text-x-script",
       MIME:                 "text/vbscript.encode",
     },
@@ -24163,7 +24163,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "iptables configuration file",
-      RecommendedExtension: "",
+      RecommendedExtension: ".iptables",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-iptables",
     },
@@ -24182,7 +24182,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "D-Bus service file",
-      RecommendedExtension: "",
+      RecommendedExtension: ".service",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-dbus-service",
     },
@@ -24281,7 +24281,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Systemd unit file",
-      RecommendedExtension: "",
+      RecommendedExtension: ".automount",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-systemd-unit",
     },
@@ -24296,7 +24296,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "XSLT stylesheet",
-      RecommendedExtension: "",
+      RecommendedExtension: ".xsl",
       Icon:                 "text-x-generic",
       MIME:                 "application/xslt+xml",
     },
@@ -24330,7 +24330,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Binary differences between files",
-      RecommendedExtension: "",
+      RecommendedExtension: ".bsdiff",
       Icon:                 "application-x-generic",
       MIME:                 "application/x-bsdiff",
     },
@@ -24346,7 +24346,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "DV video",
-      RecommendedExtension: "",
+      RecommendedExtension: ".dv",
       Icon:                 "application-x-generic",
       MIME:                 "video/dv",
     },
@@ -24413,7 +24413,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "MPEG-2 transport stream",
-      RecommendedExtension: "",
+      RecommendedExtension: ".m2t",
       Icon:                 "application-x-generic",
       MIME:                 "video/mp2t",
     },
@@ -24436,7 +24436,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "MPEG video",
-      RecommendedExtension: "",
+      RecommendedExtension: ".mpeg",
       Icon:                 "application-x-generic",
       MIME:                 "video/mpeg",
     },
@@ -24451,7 +24451,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Video playlist",
-      RecommendedExtension: ".mpegurl",
+      RecommendedExtension: ".m1u",
       Icon:                 "application-x-generic",
       MIME:                 "video/vnd.mpegurl",
     },
@@ -24478,7 +24478,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "QuickTime video",
-      RecommendedExtension: "",
+      RecommendedExtension: ".qt",
       Icon:                 "application-x-generic",
       MIME:                 "video/quicktime",
     },
@@ -24493,7 +24493,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "QuickTime image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".qtif",
       Icon:                 "application-x-generic",
       MIME:                 "image/x-quicktime",
     },
@@ -24508,7 +24508,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "PGP/MIME-encrypted message header",
-      RecommendedExtension: "",
+      RecommendedExtension: ".pgp",
       Icon:                 "application-x-generic",
       MIME:                 "application/pgp-encrypted",
     },
@@ -24523,7 +24523,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "iRiver playlist",
-      RecommendedExtension: "",
+      RecommendedExtension: ".pla",
       Icon:                 "application-x-generic",
       MIME:                 "audio/x-iriver-pla",
     },
@@ -24542,7 +24542,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "XSPF playlist",
-      RecommendedExtension: "",
+      RecommendedExtension: ".xspf",
       Icon:                 "audio-x-generic",
       MIME:                 "application/xspf+xml",
     },
@@ -24561,7 +24561,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "FLIC animation",
-      RecommendedExtension: "",
+      RecommendedExtension: ".fli",
       Icon:                 "application-x-generic",
       MIME:                 "video/x-flic",
     },
@@ -24576,7 +24576,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Haansoft Hangul document",
-      RecommendedExtension: "",
+      RecommendedExtension: ".hwp",
       Icon:                 "x-office-document",
       MIME:                 "application/x-hwp",
     },
@@ -24591,7 +24591,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "MNG animation",
-      RecommendedExtension: "",
+      RecommendedExtension: ".mng",
       Icon:                 "application-x-generic",
       MIME:                 "video/x-mng",
     },
@@ -24610,7 +24610,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "ASF video",
-      RecommendedExtension: ".ms-asf",
+      RecommendedExtension: ".asf",
       Icon:                 "application-x-generic",
       MIME:                 "application/vnd.ms-asf",
     },
@@ -24625,7 +24625,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Windows Media Station file",
-      RecommendedExtension: "",
+      RecommendedExtension: ".nsc",
       Icon:                 "video-x-generic",
       MIME:                 "application/x-netshow-channel",
     },
@@ -24671,7 +24671,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "NullSoft video",
-      RecommendedExtension: "",
+      RecommendedExtension: ".nsv",
       Icon:                 "application-x-generic",
       MIME:                 "video/x-nsv",
     },
@@ -24692,7 +24692,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "SDP multicast stream file",
-      RecommendedExtension: "",
+      RecommendedExtension: ".sdp",
       Icon:                 "video-x-generic",
       MIME:                 "application/sdp",
     },
@@ -24707,7 +24707,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "SGI video",
-      RecommendedExtension: "",
+      RecommendedExtension: ".movie",
       Icon:                 "application-x-generic",
       MIME:                 "video/x-sgi-movie",
     },
@@ -24722,7 +24722,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "eMusic download package",
-      RecommendedExtension: ".emusic-emusic_package",
+      RecommendedExtension: ".emp",
       Icon:                 "package-x-generic",
       MIME:                 "application/vnd.emusic-emusic_package",
     },
@@ -24745,7 +24745,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "T602 document",
-      RecommendedExtension: "",
+      RecommendedExtension: ".602",
       Icon:                 "x-office-document",
       MIME:                 "application/x-t602",
     },
@@ -24766,7 +24766,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "Cisco VPN settings",
-      RecommendedExtension: "",
+      RecommendedExtension: ".pcf",
       Icon:                 "text-x-generic",
       MIME:                 "application/x-cisco-vpn-settings",
     },
@@ -24781,7 +24781,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "ICC profile",
-      RecommendedExtension: ".iccprofile",
+      RecommendedExtension: ".icc",
       Icon:                 "application-x-generic",
       MIME:                 "application/vnd.iccprofile",
     },
@@ -24796,7 +24796,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "IT 8.7 color calibration file",
-      RecommendedExtension: "",
+      RecommendedExtension: ".it87",
       Icon:                 "text-x-generic",
       MIME:                 "application/x-it87",
     },
@@ -24811,7 +24811,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "CCMX color correction file",
-      RecommendedExtension: "",
+      RecommendedExtension: ".ccmx",
       Icon:                 "text-x-generic",
       MIME:                 "application/x-ccmx",
     },
@@ -24826,7 +24826,7 @@ var dataMatchers = []DataMatcher{
     Priority: 50,
     Result:     FileType{
       Description:          "WinHelp help file",
-      RecommendedExtension: "",
+      RecommendedExtension: ".hlp",
       Icon:                 "application-x-generic",
       MIME:                 "application/winhlp",
     },
@@ -24845,7 +24845,7 @@ var dataMatchers = []DataMatcher{
     Priority: 45,
     Result:     FileType{
       Description:          "AR archive",
-      RecommendedExtension: "",
+      RecommendedExtension: ".a",
       Icon:                 "package-x-generic",
       MIME:                 "application/x-archive",
     },
@@ -24860,7 +24860,7 @@ var dataMatchers = []DataMatcher{
     Priority: 45,
     Result:     FileType{
       Description:          "SVG image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".svg",
       Icon:                 "application-x-generic",
       MIME:                 "image/svg+xml",
     },
@@ -24890,7 +24890,7 @@ var dataMatchers = []DataMatcher{
     Priority: 40,
     Result:     FileType{
       Description:          "XML document",
-      RecommendedExtension: "",
+      RecommendedExtension: ".xml",
       Icon:                 "text-html",
       MIME:                 "application/xml",
     },
@@ -24920,7 +24920,7 @@ var dataMatchers = []DataMatcher{
     Priority: 40,
     Result:     FileType{
       Description:          "JavaFX video",
-      RecommendedExtension: "",
+      RecommendedExtension: ".fxm",
       Icon:                 "video-x-generic",
       MIME:                 "video/x-javafx",
     },
@@ -24935,7 +24935,7 @@ var dataMatchers = []DataMatcher{
     Priority: 40,
     Result:     FileType{
       Description:          "Nintendo 3DS Executable",
-      RecommendedExtension: "",
+      RecommendedExtension: ".3dsx",
       Icon:                 "application-x-executable",
       MIME:                 "application/x-nintendo-3ds-executable",
     },
@@ -24950,7 +24950,7 @@ var dataMatchers = []DataMatcher{
     Priority: 40,
     Result:     FileType{
       Description:          "Protein Data Bank file",
-      RecommendedExtension: "",
+      RecommendedExtension: ".pdb",
       Icon:                 "text-x-generic",
       MIME:                 "chemical/x-pdb",
     },
@@ -24989,7 +24989,7 @@ var dataMatchers = []DataMatcher{
     Priority: 40,
     Result:     FileType{
       Description:          "Perl script",
-      RecommendedExtension: "",
+      RecommendedExtension: ".pl",
       Icon:                 "text-x-script",
       MIME:                 "application/x-perl",
     },
@@ -25004,7 +25004,7 @@ var dataMatchers = []DataMatcher{
     Priority: 40,
     Result:     FileType{
       Description:          "MPlayer subtitles",
-      RecommendedExtension: "",
+      RecommendedExtension: ".sub",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-mpsub",
     },
@@ -25019,7 +25019,7 @@ var dataMatchers = []DataMatcher{
     Priority: 40,
     Result:     FileType{
       Description:          "ULAW (Sun) audio",
-      RecommendedExtension: "",
+      RecommendedExtension: ".au",
       Icon:                 "application-x-generic",
       MIME:                 "audio/basic",
     },
@@ -25192,7 +25192,7 @@ var dataMatchers = []DataMatcher{
     Priority: 40,
     Result:     FileType{
       Description:          "Amiga SoundTracker audio",
-      RecommendedExtension: "",
+      RecommendedExtension: ".mod",
       Icon:                 "application-x-generic",
       MIME:                 "audio/x-mod",
     },
@@ -25215,7 +25215,7 @@ var dataMatchers = []DataMatcher{
     Priority: 40,
     Result:     FileType{
       Description:          "HTML document",
-      RecommendedExtension: "",
+      RecommendedExtension: ".html",
       Icon:                 "text-x-generic",
       MIME:                 "text/html",
     },
@@ -25230,7 +25230,7 @@ var dataMatchers = []DataMatcher{
     Priority: 40,
     Result:     FileType{
       Description:          "SPARQL query",
-      RecommendedExtension: "",
+      RecommendedExtension: ".qs",
       Icon:                 "application-x-generic",
       MIME:                 "application/sparql-query",
     },
@@ -25265,7 +25265,7 @@ var dataMatchers = []DataMatcher{
     Priority: 40,
     Result:     FileType{
       Description:          "HEIF image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".heic",
       Icon:                 "application-x-generic",
       MIME:                 "image/heif",
     },
@@ -25297,7 +25297,7 @@ var dataMatchers = []DataMatcher{
     Priority: 40,
     Result:     FileType{
       Description:          "Devicetree source code",
-      RecommendedExtension: "",
+      RecommendedExtension: ".dts",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-devicetree-source",
     },
@@ -25359,7 +25359,7 @@ var dataMatchers = []DataMatcher{
     Priority: 30,
     Result:     FileType{
       Description:          "3D Studio image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".3ds",
       Icon:                 "application-x-generic",
       MIME:                 "image/x-3ds",
     },
@@ -25374,7 +25374,7 @@ var dataMatchers = []DataMatcher{
     Priority: 30,
     Result:     FileType{
       Description:          "Mobipocket e-book",
-      RecommendedExtension: "",
+      RecommendedExtension: ".mobi",
       Icon:                 "x-office-document",
       MIME:                 "application/x-mobipocket-ebook",
     },
@@ -25389,7 +25389,7 @@ var dataMatchers = []DataMatcher{
     Priority: 20,
     Result:     FileType{
       Description:          "Mailbox file",
-      RecommendedExtension: "",
+      RecommendedExtension: ".mbox",
       Icon:                 "emblem-mail",
       MIME:                 "application/mbox",
     },
@@ -25408,7 +25408,7 @@ var dataMatchers = []DataMatcher{
     Priority: 10,
     Result:     FileType{
       Description:          "OCaml source code",
-      RecommendedExtension: "",
+      RecommendedExtension: ".ml",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-ocaml",
     },
@@ -25427,7 +25427,7 @@ var dataMatchers = []DataMatcher{
     Priority: 10,
     Result:     FileType{
       Description:          "MATLAB file",
-      RecommendedExtension: "",
+      RecommendedExtension: ".m",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-matlab",
     },
@@ -25462,7 +25462,7 @@ var dataMatchers = []DataMatcher{
     Priority: 10,
     Result:     FileType{
       Description:          "D source code",
-      RecommendedExtension: "",
+      RecommendedExtension: ".d",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-dsrc",
     },
@@ -25481,7 +25481,7 @@ var dataMatchers = []DataMatcher{
     Priority: 10,
     Result:     FileType{
       Description:          "OOC source code",
-      RecommendedExtension: "",
+      RecommendedExtension: ".ooc",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-ooc",
     },
@@ -25544,7 +25544,7 @@ var dataMatchers = []DataMatcher{
     Priority: 10,
     Result:     FileType{
       Description:          "Vala source code",
-      RecommendedExtension: "",
+      RecommendedExtension: ".vala",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-vala",
     },
@@ -25583,7 +25583,7 @@ var dataMatchers = []DataMatcher{
     Priority: 10,
     Result:     FileType{
       Description:          "C# source code",
-      RecommendedExtension: "",
+      RecommendedExtension: ".cs",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-csharp",
     },
@@ -25606,7 +25606,7 @@ var dataMatchers = []DataMatcher{
     Priority: 10,
     Result:     FileType{
       Description:          "Blueprint source code",
-      RecommendedExtension: "",
+      RecommendedExtension: ".blp",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-blueprint",
     },
@@ -25637,7 +25637,7 @@ var dataMatchers = []DataMatcher{
     Priority: 10,
     Result:     FileType{
       Description:          "Kotlin source code",
-      RecommendedExtension: "",
+      RecommendedExtension: ".kt",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-kotlin",
     },
@@ -25652,7 +25652,7 @@ var dataMatchers = []DataMatcher{
     Priority: 10,
     Result:     FileType{
       Description:          "TeX document",
-      RecommendedExtension: "",
+      RecommendedExtension: ".tex",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-tex",
     },
@@ -25671,7 +25671,7 @@ var dataMatchers = []DataMatcher{
     Priority: 10,
     Result:     FileType{
       Description:          "WarpScript source code",
-      RecommendedExtension: ".warpscript",
+      RecommendedExtension: ".mc2",
       Icon:                 "text-x-generic",
       MIME:                 "text/vnd.senx.warpscript",
     },
@@ -25686,7 +25686,7 @@ var dataMatchers = []DataMatcher{
     Priority: 10,
     Result:     FileType{
       Description:          "Elixir source code",
-      RecommendedExtension: "",
+      RecommendedExtension: ".ex",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-elixir",
     },
@@ -25709,7 +25709,7 @@ var dataMatchers = []DataMatcher{
     Priority: 10,
     Result:     FileType{
       Description:          "Devicetree source code",
-      RecommendedExtension: "",
+      RecommendedExtension: ".dts",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-devicetree-source",
     },
@@ -25732,7 +25732,7 @@ var dataMatchers = []DataMatcher{
     Priority: 10,
     Result:     FileType{
       Description:          "Verilog source code",
-      RecommendedExtension: "",
+      RecommendedExtension: ".v",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-verilog",
     },
@@ -25763,7 +25763,7 @@ var dataMatchers = []DataMatcher{
     Priority: 10,
     Result:     FileType{
       Description:          "TGA image",
-      RecommendedExtension: "",
+      RecommendedExtension: ".tga",
       Icon:                 "application-x-generic",
       MIME:                 "image/x-tga",
     },
@@ -25806,7 +25806,7 @@ var dataMatchers = []DataMatcher{
     Priority: 10,
     Result:     FileType{
       Description:          "Genie source code",
-      RecommendedExtension: "",
+      RecommendedExtension: ".gs",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-genie",
     },
@@ -25841,7 +25841,7 @@ var dataMatchers = []DataMatcher{
     Priority: 10,
     Result:     FileType{
       Description:          "Java source code",
-      RecommendedExtension: "",
+      RecommendedExtension: ".java",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-java",
     },
@@ -25888,7 +25888,7 @@ var dataMatchers = []DataMatcher{
     Priority: 10,
     Result:     FileType{
       Description:          "Objective-C++ source code",
-      RecommendedExtension: "",
+      RecommendedExtension: ".mm",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-objc++src",
     },
@@ -25915,7 +25915,7 @@ var dataMatchers = []DataMatcher{
     Priority: 10,
     Result:     FileType{
       Description:          "Scala source code",
-      RecommendedExtension: "",
+      RecommendedExtension: ".scala",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-scala",
     },
@@ -25942,7 +25942,7 @@ var dataMatchers = []DataMatcher{
     Priority: 10,
     Result:     FileType{
       Description:          "OpenCL C source code",
-      RecommendedExtension: "",
+      RecommendedExtension: ".cl",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-opencl-csrc",
     },
@@ -25957,7 +25957,7 @@ var dataMatchers = []DataMatcher{
     Priority: 10,
     Result:     FileType{
       Description:          "Eiffel source code",
-      RecommendedExtension: "",
+      RecommendedExtension: ".e",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-eiffel",
     },
@@ -25988,7 +25988,7 @@ var dataMatchers = []DataMatcher{
     Priority: 10,
     Result:     FileType{
       Description:          "Modelica model",
-      RecommendedExtension: "",
+      RecommendedExtension: ".mo",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-modelica",
     },
@@ -26034,7 +26034,7 @@ var dataMatchers = []DataMatcher{
     Priority: 10,
     Result:     FileType{
       Description:          "Nim source code",
-      RecommendedExtension: "",
+      RecommendedExtension: ".nim",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-nim",
     },
@@ -26073,7 +26073,7 @@ var dataMatchers = []DataMatcher{
     Priority: 10,
     Result:     FileType{
       Description:          "Rust source code",
-      RecommendedExtension: "",
+      RecommendedExtension: ".rs",
       Icon:                 "text-x-generic",
       MIME:                 "text/rust",
     },
@@ -26104,7 +26104,7 @@ var dataMatchers = []DataMatcher{
     Priority: 10,
     Result:     FileType{
       Description:          "Julia source code",
-      RecommendedExtension: "",
+      RecommendedExtension: ".jl",
       Icon:                 "text-x-generic",
       MIME:                 "text/julia",
     },
@@ -26131,7 +26131,7 @@ var dataMatchers = []DataMatcher{
     Priority: 10,
     Result:     FileType{
       Description:          "Crystal source code",
-      RecommendedExtension: "",
+      RecommendedExtension: ".cr",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-crystal",
     },
@@ -26154,7 +26154,7 @@ var dataMatchers = []DataMatcher{
     Priority: 10,
     Result:     FileType{
       Description:          "Ruby script",
-      RecommendedExtension: "",
+      RecommendedExtension: ".rb",
       Icon:                 "text-x-script",
       MIME:                 "application/x-ruby",
     },
@@ -26177,7 +26177,7 @@ var dataMatchers = []DataMatcher{
     Priority: 10,
     Result:     FileType{
       Description:          "Go source code",
-      RecommendedExtension: "",
+      RecommendedExtension: ".go",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-go",
     },
@@ -26208,7 +26208,7 @@ var dataMatchers = []DataMatcher{
     Priority: 10,
     Result:     FileType{
       Description:          "Groovy source code",
-      RecommendedExtension: "",
+      RecommendedExtension: ".groovy",
       Icon:                 "text-x-script",
       MIME:                 "text/x-groovy",
     },
@@ -26235,7 +26235,7 @@ var dataMatchers = []DataMatcher{
     Priority: 10,
     Result:     FileType{
       Description:          "Cython source code",
-      RecommendedExtension: "",
+      RecommendedExtension: ".pxd",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-cython",
     },
@@ -26250,7 +26250,7 @@ var dataMatchers = []DataMatcher{
     Priority: 10,
     Result:     FileType{
       Description:          "Lua script",
-      RecommendedExtension: "",
+      RecommendedExtension: ".lua",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-lua",
     },
@@ -26271,7 +26271,7 @@ var dataMatchers = []DataMatcher{
     Priority: 10,
     Result:     FileType{
       Description:          "HTTP archive",
-      RecommendedExtension: "",
+      RecommendedExtension: ".har",
       Icon:                 "package-x-generic",
       MIME:                 "application/har+json",
     },
@@ -26298,7 +26298,7 @@ var dataMatchers = []DataMatcher{
     Priority: 10,
     Result:     FileType{
       Description:          "TypeScript program",
-      RecommendedExtension: "",
+      RecommendedExtension: ".cts",
       Icon:                 "text-x-script",
       MIME:                 "application/typescript",
     },
@@ -26317,7 +26317,7 @@ var dataMatchers = []DataMatcher{
     Priority: 10,
     Result:     FileType{
       Description:          "Todo.txt file",
-      RecommendedExtension: "",
+      RecommendedExtension: ".txt",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-todo-txt",
     },
@@ -26332,7 +26332,7 @@ var dataMatchers = []DataMatcher{
     Priority: 5,
     Result:     FileType{
       Description:          "Go source code",
-      RecommendedExtension: "",
+      RecommendedExtension: ".go",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-go",
     },
@@ -26347,7 +26347,7 @@ var dataMatchers = []DataMatcher{
     Priority: 5,
     Result:     FileType{
       Description:          "OCaml source code",
-      RecommendedExtension: "",
+      RecommendedExtension: ".ml",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-ocaml",
     },
@@ -26362,7 +26362,7 @@ var dataMatchers = []DataMatcher{
     Priority: 5,
     Result:     FileType{
       Description:          "Kotlin source code",
-      RecommendedExtension: "",
+      RecommendedExtension: ".kt",
       Icon:                 "text-x-generic",
       MIME:                 "text/x-kotlin",
     },
