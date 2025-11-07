@@ -117,13 +117,13 @@ func main() {
 	var filenameMatchers []*magic.FilenameMatcher
 	for _, mt := range mimeInfo.MimeTypes {
 		for _, g := range mt.Globs {
+			if g.Weight == 0 {
+				g.Weight = 50
+			}
 			res := buildResult(mt)
 			if _, err := doublestar.Match(g.Pattern, ""); err != nil {
 				fmt.Fprintf(os.Stderr, "Error parsing glob %s: %v\n", g.Pattern, err)
 				os.Exit(1)
-			}
-			if g.Weight == 0 {
-				g.Weight = 50
 			}
 			res.RecommendedExtension = filepath.Ext(g.Pattern)
 			filenameMatchers = append(filenameMatchers, &magic.FilenameMatcher{
@@ -167,9 +167,22 @@ func main() {
 }
 
 func buildResult(mt MimeType) magic.FileType {
+	ext := ""
+	w := 0
+	for _, g := range mt.Globs {
+		if g.Weight == 0 {
+			g.Weight = 50
+		}
+		if g.Weight > w {
+			if v := filepath.Ext(g.Pattern); v != "" {
+				w = g.Weight
+				ext = v
+			}
+		}
+	}
 	return magic.FileType{
 		Description:          mt.Comment,
-		RecommendedExtension: filepath.Ext(mt.Type),
+		RecommendedExtension: ext,
 		MIME:                 mt.Type,
 		Icon:                 mt.Icon.Name,
 	}
