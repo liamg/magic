@@ -14,14 +14,14 @@ import (
 	"github.com/bmatcuk/doublestar/v4"
 )
 
-var UnknownBinaryFileType = FileType{
+var unknownBinaryFileType = FileType{
 	Description:          "Unknown",
 	RecommendedExtension: ".bin",
 	MIME:                 "application/octet-stream",
 	Icon:                 "application-x-generic",
 }
 
-var UnknownTextFileType = FileType{
+var unknownTextFileType = FileType{
 	Description:          "Unknown",
 	RecommendedExtension: ".txt",
 	MIME:                 "text/plain",
@@ -71,12 +71,7 @@ func Identify(r io.Reader) FileType {
 		reader: r,
 	}
 
-	for _, t := range dataMatchers {
-		if t.MatchBytes(b) {
-			return t.Result
-		}
-	}
-	for _, t := range extraDataMatchers {
+	for _, t := range allDataMatchers {
 		if t.MatchBytes(b) {
 			return t.Result
 		}
@@ -87,7 +82,7 @@ func Identify(r io.Reader) FileType {
 func IdentifyPath(path string) (FileType, error) {
 	f, err := os.Open(path)
 	if err != nil {
-		return UnknownBinaryFileType, err
+		return unknownBinaryFileType, err
 	}
 	defer func() { _ = f.Close() }()
 	return IdentifyWithFilename(f, filepath.Base(path)), nil
@@ -99,20 +94,21 @@ func identifyUnknownType(b *bufferedReader) FileType {
 	for i := range len(b.Data()) {
 		if b.Data()[i] < 32 || b.Data()[i] > 126 {
 			if utf8.Valid(b.Data()) {
-				return UnknownTextFileType
+				return unknownTextFileType
 			}
-			return UnknownBinaryFileType
+			return unknownBinaryFileType
 		}
 	}
-	return UnknownTextFileType
+	return unknownTextFileType
 }
 
-// IdentifyWithFilename looks up the file type based on the provided filename, falling back to the bytes if neede.
+// IdentifyWithFilename looks up the file type based on the provided filename, falling back to the bytes if needed.
+// See https://specifications.freedesktop.org/shared-mime-info/latest/ar01s02.html#id-1.3.15 for checking order
 func IdentifyWithFilename(r io.Reader, filename string) FileType {
 	filename = filepath.Base(filename)
 	candidates := make([]FilenameMatcher, 0)
 	maxPriority := 0
-	for _, t := range append(filenameMatchers, extraFileMatchers...) {
+	for _, t := range allFilenameMatchers {
 		if t.Priority < maxPriority {
 			continue
 		}
@@ -130,10 +126,36 @@ func IdentifyWithFilename(r io.Reader, filename string) FileType {
 				filtered = append(filtered, c)
 			}
 		}
+		if len(filtered) == 1 {
+			return filtered[0].Result
+		}
 		sort.Slice(filtered, func(i, j int) bool {
 			return filtered[i].Pattern > filtered[j].Pattern
 		})
-		return filtered[0].Result
+		maxPatternLength := len(filtered[0].Pattern)
+		refiltered := make([]FilenameMatcher, 0, len(filtered))
+		for _, f := range filtered {
+			if len(f.Pattern) == maxPatternLength {
+				refiltered = append(refiltered, f)
+			}
+		}
+		mimes := make(map[string]struct{}, len(refiltered))
+		for _, f := range refiltered {
+			fmt.Println(f.Result.MIME)
+			mimes[f.Result.MIME] = struct{}{}
+		}
+		if len(mimes) == 1 {
+			return refiltered[0].Result
+		}
+
+		// we follow the fressdesktop advice here of using the file content if there are multiple filename matches.
+		// however, if the file content doesn't yield a match either, we take the first filename match
+		fallback := Identify(r)
+		if fallback != unknownBinaryFileType && fallback != unknownTextFileType {
+			return fallback
+		}
+
+		return refiltered[0].Result
 	}
 	return Identify(r)
 }

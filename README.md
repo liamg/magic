@@ -17,6 +17,8 @@ $ magic /path/to/file
 
 ## Module Usage
 
+See the [docs](https://pkg.go.dev/github.com/liamg/magic) for full details.
+
 ```go
 package main
 

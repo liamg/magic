@@ -1,5 +1,19 @@
 package magic
 
+import "sort"
+
+var allDataMatchers = append(dataMatchers, extraDataMatchers...)
+var allFilenameMatchers = append(filenameMatchers, extraFileMatchers...)
+
+func init() {
+	sort.Slice(allDataMatchers, func(i, j int) bool {
+		return allDataMatchers[i].Priority > allDataMatchers[j].Priority
+	})
+	sort.Slice(allFilenameMatchers, func(i, j int) bool {
+		return allFilenameMatchers[i].Priority > allFilenameMatchers[j].Priority
+	})
+}
+
 var extraFileMatchers = []FilenameMatcher{
 	{
 		Pattern: "go.mod",
