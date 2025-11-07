@@ -141,7 +141,6 @@ func IdentifyWithFilename(r io.Reader, filename string) FileType {
 		}
 		mimes := make(map[string]struct{}, len(refiltered))
 		for _, f := range refiltered {
-			fmt.Println(f.Result.MIME)
 			mimes[f.Result.MIME] = struct{}{}
 		}
 		if len(mimes) == 1 {
